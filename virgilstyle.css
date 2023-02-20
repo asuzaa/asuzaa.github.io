@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'v-horse';
-  src:  url('fonts/v-horse.eot?xmj5hg');
-  src:  url('fonts/v-horse.eot?xmj5hg#iefix') format('embedded-opentype'),
-    url('fonts/v-horse.ttf?xmj5hg') format('truetype'),
-    url('fonts/v-horse.woff?xmj5hg') format('woff'),
-    url('fonts/v-horse.svg?xmj5hg#v-horse') format('svg');
+  src:  url('//asuzaa.github.io/v-horse.eot');
+  src:  url('//asuzaa.github.io/v-horse.eot?#iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/v-horse.ttf') format('truetype'),
+    url('//asuzaa.github.io/v-horse.woff') format('woff'),
+    url('//asuzaa.github.io/v-horse.svg#v-horse') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
