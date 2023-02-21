@@ -10,6 +10,7 @@
   font-display: block;
 }
 
+
 [class^="s-"], [class*=" s-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'v-horse' !important;
@@ -25,6 +26,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.s-horse:before {
-  content: "\e901";
+.s-virgil:before {
+  content: "\e903";
 }
