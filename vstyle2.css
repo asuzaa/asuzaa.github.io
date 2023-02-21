@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'virgil';
   src:  url('//asuzaa.github.io/virgil.eot');
-  src:  url('//asuzaa.github.io/virgil.eot?#iefix') format('embedded-opentype'),
+  src:  url('//asuzaa.github.io/virgil.eot?iefix') format('embedded-opentype'),
     url('//asuzaa.github.io/virgil.ttf') format('truetype'),
     url('//asuzaa.github.io/virgil.woff') format('woff'),
     url('//asuzaa.github.io/virgil.svg#virgil') format('svg');
+    url('') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
