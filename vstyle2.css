@@ -1,19 +1,18 @@
 @font-face {
-  font-family: 'v-horse';
-  src:  url('//asuzaa.github.io/v-horse.eot');
-  src:  url('//asuzaa.github.io/v-horse.eot?#iefix') format('embedded-opentype'),
-    url('//asuzaa.github.io/v-horse.ttf') format('truetype'),
-    url('//asuzaa.github.io/v-horse.woff') format('woff'),
-    url('//asuzaa.github.io/v-horse.svg#v-horse') format('svg');
+  font-family: 'virgil';
+  src:  url('fonts/virgil.eot?4rn1nj');
+  src:  url('fonts/virgil.eot?4rn1nj#iefix') format('embedded-opentype'),
+    url('fonts/virgil.ttf?4rn1nj') format('truetype'),
+    url('fonts/virgil.woff?4rn1nj') format('woff'),
+    url('fonts/virgil.svg?4rn1nj#virgil') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-
 [class^="s-"], [class*=" s-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'v-horse' !important;
+  font-family: 'virgil' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
