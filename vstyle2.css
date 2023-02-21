@@ -1,14 +1,15 @@
 @font-face {
   font-family: 'v-horse';
-  src:  url('fonts/v-horse.eot?f59ez2');
-  src:  url('fonts/v-horse.eot?f59ez2#iefix') format('embedded-opentype'),
-    url('fonts/v-horse.ttf?f59ez2') format('truetype'),
-    url('fonts/v-horse.woff?f59ez2') format('woff'),
-    url('fonts/v-horse.svg?f59ez2#v-horse') format('svg');
+  src:  url('//asuzaa.github.io/v-horse.eot');
+  src:  url('//asuzaa.github.io/v-horse.eot?#iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/v-horse.ttf') format('truetype'),
+    url('//asuzaa.github.io/v-horse.woff') format('woff'),
+    url('//asuzaa.github.io/v-horse.svg#v-horse') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
+
 
 [class^="s-"], [class*=" s-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
