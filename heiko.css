@@ -32,6 +32,9 @@
 .h-hesiod:before {
   content: "\e904";
 }
+.h-kai:before {
+  content: "\e905";
+}
 .h-virgil:before {
   content: "\e903";
 }
