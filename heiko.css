@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'e-crow';
-  src:  url('fonts/e-crow.eot?tjteah');
-  src:  url('fonts/e-crow.eot?tjteah#iefix') format('embedded-opentype'),
-    url('/fonts/e-crow.ttf?tjteah') format('truetype'),
-    url('/fonts/e-crow.woff?tjteah') format('woff'),
-    url('/fonts/e-crow.svg?tjteah#e-crow') format('svg');
+  font-family: 'heiko';
+  src:  url('fonts/heiko.eot?v6qlp2');
+  src:  url('fonts/heiko.eot?v6qlp2#iefix') format('embedded-opentype'),
+    url('fonts/heiko.ttf?v6qlp2') format('truetype'),
+    url('fonts/heiko.woff?v6qlp2') format('woff'),
+    url('fonts/heiko.svg?v6qlp2#heiko') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="se-"], [class*=" se-"] {
+[class^="h-"], [class*=" h-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'e-crow' !important;
+  font-family: 'heiko' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.s-crow:before {
-  content: "\e900";
+.h-elian:before {
+  content: "\e908";
+}
+.h-hesiod:before {
+  content: "\e904";
+}
+.h-virgil:before {
+  content: "\e903";
 }
