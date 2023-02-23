@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'leo';
-  src:  url('fonts/leo.eot?2tx9oq');
-  src:  url('fonts/leo.eot?2tx9oq#iefix') format('embedded-opentype'),
-    url('fonts/leo.ttf?2tx9oq') format('truetype'),
-    url('fonts/leo.woff?2tx9oq') format('woff'),
-    url('fonts/leo.svg?2tx9oq#leo') format('svg');
+  src:  url('//asuzaa.github.io/leo.eot');
+  src:  url('//asuzaa.github.io/leo.eot?iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/leo.ttf') format('truetype'),
+    url('//asuzaa.github.io/leo.woff') format('woff'),
+    url('//asuzaa.github.io/leo.svg#leo') format('svg');
+    url('') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
