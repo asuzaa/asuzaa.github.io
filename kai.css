@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'kai';
-  src:  url('fonts/kai.eot?6jrbj5');
-  src:  url('fonts/kai.eot?6jrbj5#iefix') format('embedded-opentype'),
-    url('fonts/kai.ttf?6jrbj5') format('truetype'),
-    url('fonts/kai.woff?6jrbj5') format('woff'),
-    url('fonts/kai.svg?6jrbj5#kai') format('svg');
+  src:  url('//asuzaa.github.io/kai.eot');
+  src:  url('//asuzaa.github.io/kai.eot?iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/kai.ttf') format('truetype'),
+    url('//asuzaa.github.io/kai.woff') format('woff'),
+    url('//asuzaa.github.io/kai.svg#kai') format('svg');
+    url('') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
