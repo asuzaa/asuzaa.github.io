@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'heiko';
-  src:  url('fonts/heiko.eot?v6qlp2');
-  src:  url('fonts/heiko.eot?v6qlp2#iefix') format('embedded-opentype'),
-    url('fonts/heiko.ttf?v6qlp2') format('truetype'),
-    url('fonts/heiko.woff?v6qlp2') format('woff'),
-    url('fonts/heiko.svg?v6qlp2#heiko') format('svg');
+  src:  url('//asuzaa.github.io/heiko.eot');
+  src:  url('//asuzaa.github.io/heiko.eot?iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/heiko.ttf') format('truetype'),
+    url('//asuzaa.github.io/heiko.woff') format('woff'),
+    url('//asuzaa.github.io/heiko.svg#heiko') format('svg');
+    url('') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
