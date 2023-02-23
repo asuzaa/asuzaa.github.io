@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'niki';
-  src:  url('fonts/niki.eot?7zyybd');
-  src:  url('fonts/niki.eot?7zyybd#iefix') format('embedded-opentype'),
-    url('fonts/niki.ttf?7zyybd') format('truetype'),
-    url('fonts/niki.woff?7zyybd') format('woff'),
-    url('fonts/niki.svg?7zyybd#niki') format('svg');
+  src:  url('//asuzaa.github.io/niki.eot');
+  src:  url('//asuzaa.github.io/niki.eot?iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/niki.ttf') format('truetype'),
+    url('//asuzaa.github.io/niki.woff') format('woff'),
+    url('//asuzaa.github.io/niki.svg#niki') format('svg');
+    url('') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
