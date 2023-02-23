@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'elian';
+  src:  url('fonts/elian.eot?akphwb');
+  src:  url('fonts/elian.eot?akphwb#iefix') format('embedded-opentype'),
+    url('fonts/elian.ttf?akphwb') format('truetype'),
+    url('fonts/elian.woff?akphwb') format('woff'),
+    url('fonts/elian.svg?akphwb#elian') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="s-"], [class*=" s-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'elian' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.s-elian:before {
+  content: "\e908";
+}
