@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'elian';
-  src:  url('fonts/elian.eot?akphwb');
-  src:  url('fonts/elian.eot?akphwb#iefix') format('embedded-opentype'),
-    url('fonts/elian.ttf?akphwb') format('truetype'),
-    url('fonts/elian.woff?akphwb') format('woff'),
-    url('fonts/elian.svg?akphwb#elian') format('svg');
+  src:  url('//asuzaa.github.io/elian.eot');
+  src:  url('//asuzaa.github.io/elian.eot?iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/elian.ttf') format('truetype'),
+    url('//asuzaa.github.io/elian.woff') format('woff'),
+    url('//asuzaa.github.io/elian.svg#elian') format('svg');
+    url('') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
