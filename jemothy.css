@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'jemothy';
-  src:  url('fonts/jemothy.eot?6n1uvr');
-  src:  url('fonts/jemothy.eot?6n1uvr#iefix') format('embedded-opentype'),
-    url('fonts/jemothy.ttf?6n1uvr') format('truetype'),
-    url('fonts/jemothy.woff?6n1uvr') format('woff'),
-    url('fonts/jemothy.svg?6n1uvr#jemothy') format('svg');
+  src:  url('//asuzaa.github.io/jemothy.eot');
+  src:  url('//asuzaa.github.io/jemothy.eot?iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/jemothy.ttf') format('truetype'),
+    url('//asuzaa.github.io/jemothy.woff') format('woff'),
+    url('//asuzaa.github.io/jemothy.svg#jemothy') format('svg');
+    url('') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
