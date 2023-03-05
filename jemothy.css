@@ -32,3 +32,9 @@
 .s-aurelie:before {
   content: "\e50";
 }
+.s-cain2:before {
+  content: "\e900";
+}
+.s-cain:before {
+  content: "\e02";
+}
