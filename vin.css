@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'vin';
-  src:  url('fonts/vin.eot');
-  src:  url('fonts/vin.eot?iefix') format('embedded-opentype'),
-    url('fonts/vin.ttf') format('truetype'),
-    url('fonts/vin.woff') format('woff'),
-    url('fonts/vin.svg?#vin') format('svg');
+  src:  url('//asuzaa.github.io/vin.eot');
+  src:  url('//asuzaa.github.io/vin.eot?iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/vin.ttf') format('truetype'),
+    url('//asuzaa.github.io/vin.woff') format('woff'),
+    url('//asuzaa.github.io/vin.svg?#vin') format('svg');
     url('') format('svg');
   font-weight: normal;
   font-style: normal;
