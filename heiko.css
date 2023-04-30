@@ -26,6 +26,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.h-vin:before {
+  content: "\e901";
+}
+
 .h-niki-2:before {
   content: "\e65";
 }
