@@ -1,16 +1,17 @@
 @font-face {
   font-family: 'vin';
-  src:  url('fonts/vin.eot?c1tluv');
-  src:  url('fonts/vin.eot?c1tluv#iefix') format('embedded-opentype'),
-    url('fonts/vin.ttf?c1tluv') format('truetype'),
-    url('fonts/vin.woff?c1tluv') format('woff'),
-    url('fonts/vin.svg?c1tluv#vin') format('svg');
+  src:  url('fonts/vin.eot');
+  src:  url('fonts/vin.eot?iefix') format('embedded-opentype'),
+    url('fonts/vin.ttf') format('truetype'),
+    url('fonts/vin.woff') format('woff'),
+    url('fonts/vin.svg?#vin') format('svg');
+    url('') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="s-vinny"], [class*=" s-vinny"] {
+[class^="s-"], [class*=" s-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'vin' !important;
   speak: never;
@@ -25,6 +26,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.s-vinnyvin:before {
+.s-vin:before {
   content: "\e901";
 }
