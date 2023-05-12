@@ -26,6 +26,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.h-loni:before {
+  content: "\e900";
+}
+
 .h-vin:before {
   content: "\e901";
 }
