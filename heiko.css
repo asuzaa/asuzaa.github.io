@@ -27,13 +27,11 @@
 }
 
 .h-loni:before {
-  content: "\e905";
+  content: "\e78";
 }
-
 .h-vin:before {
   content: "\e901";
 }
-
 .h-niki-2:before {
   content: "\e65";
 }
@@ -41,7 +39,10 @@
   content: "\e66";
 }
 .h-elian:before {
-  content: "\e900";
+  content: "\e902";
+}
+.h-virgil:before {
+  content: "\e903";
 }
 .h-kai:before {
   content: "\e907";
@@ -49,6 +50,5 @@
 .h-hesiod:before {
   content: "\e904";
 }
-.h-virgil:before {
-  content: "\e903";
-}
+
+
