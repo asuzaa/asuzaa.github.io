@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'loni';
-  src:  url(''//asuzaa.github.io/loni.eot');
-  src:  url(''//asuzaa.github.io/loni.eot?iefix') format('embedded-opentype'),
-    url(''//asuzaa.github.io/loni.ttf') format('truetype'),
-    url(''//asuzaa.github.io/loni.woff') format('woff'),
-    url(''//asuzaa.github.io/loni.svg#loni') format('svg');
+  src:  url('//asuzaa.github.io/loni.eot');
+  src:  url('//asuzaa.github.io/loni.eot?iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/loni.ttf') format('truetype'),
+    url('//asuzaa.github.io/loni.woff') format('woff'),
+    url('//asuzaa.github.io/loni.svg#loni') format('svg');
     url('') format('svg');
   font-weight: normal;
   font-style: normal;
