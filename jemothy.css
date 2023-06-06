@@ -26,6 +26,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.s-yvonne2:before {
+  content: "\e977";
+}
+
 .s-yvonne:before {
   content: "\e76";
 }
