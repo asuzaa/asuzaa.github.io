@@ -26,6 +26,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.s-yvonne:before {
+  content: "\e76";
+}
+
 .s-lydia:before {
   content: "\e58";
 }
