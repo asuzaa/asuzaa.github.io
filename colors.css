@@ -85,7 +85,7 @@
 }
 
 #henry {
-  --unicode:'\\a93';
+  --unicode:'\a93';
   --main:97, 38, 29
   --alt:133, 57, 130;
 }
