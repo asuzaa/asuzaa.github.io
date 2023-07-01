@@ -27,23 +27,20 @@
 }
 
 .s-yvonne2:before {
-  content: "\e977";
+  content: "\e77";
 }
-
-.s-yvonne:before {
-  content: "\e76";
-}
-
 .s-lydia:before {
   content: "\e58";
 }
-
 .s-leo:before {
   content: "\e69";
 }
-.s-aurelie:before {
-  content: "\e50";
+.s-xavi:before {
+  content: "\e88";
 }
 .s-cain2:before {
   content: "\e900";
+}
+.s-aurelie:before {
+  content: "\e50";
 }
