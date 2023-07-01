@@ -26,9 +26,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.h-loni:before {
-  content: "\e78";
-}
 .h-vin:before {
   content: "\e901";
 }
@@ -40,6 +37,12 @@
 }
 .h-elian:before {
   content: "\e902";
+}
+.h-loni:before {
+  content: "\e78";
+}
+.h-henry:before {
+  content: "\e93";
 }
 .h-virgil:before {
   content: "\e903";
