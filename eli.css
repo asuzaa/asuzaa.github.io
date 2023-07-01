@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'eli';
-  src:  url('fonts/eli.eot?o1190v');
-  src:  url('fonts/eli.eot?o1190v#iefix') format('embedded-opentype'),
-    url('fonts/eli.ttf?o1190v') format('truetype'),
-    url('fonts/eli.woff?o1190v') format('woff'),
-    url('fonts/eli.svg?o1190v#eli') format('svg');
+  src:  url('//asuzaa.github.io/eli.eot');
+  src:  url('//asuzaa.github.io/eli.eot?iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/eli.ttf') format('truetype'),
+    url('//asuzaa.github.io/eli.woff') format('woff'),
+    url('//asuzaa.github.io/eli.svg#eli') format('svg');
+    url('') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
