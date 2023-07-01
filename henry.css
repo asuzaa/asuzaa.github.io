@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'henry';
-  src:  url('fonts/henry.eot?mvhxni');
-  src:  url('fonts/henry.eot?mvhxni#iefix') format('embedded-opentype'),
-    url('fonts/henry.ttf?mvhxni') format('truetype'),
-    url('fonts/henry.woff?mvhxni') format('woff'),
-    url('fonts/henry.svg?mvhxni#henry') format('svg');
+  src:  url('//asuzaa.github.io/henry.eot');
+  src:  url('//asuzaa.github.io/henry.eot?iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/henry.ttf') format('truetype'),
+    url('//asuzaa.github.io/henry.woff') format('woff'),
+    url('//asuzaa.github.io/henry.svg#henry') format('svg');
+  url('') format('svg'); 
   font-weight: normal;
   font-style: normal;
   font-display: block;
