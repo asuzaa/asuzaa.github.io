@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'jemmy';
+  src:  url('//asuzaa.github.io/jemmy.eot');
+  src:  url('//asuzaa.github.io/jemmy.eot?iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/jemmy.ttf') format('truetype'),
+    url('//asuzaa.github.io/jemmy.woff') format('woff'),
+    url('//asuzaa.github.io/jemmy.svg#jemothy') format('svg');
+    url('') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="jem-"], [class*=" jem-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jemothy' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jem-yvonne:before {
+  content: "\e77";
+}
+.jem-lydia:before {
+  content: "\e58";
+}
+.jem-leo:before {
+  content: "\e69";
+}
+.jem-xavi:before {
+  content: "\e88";
+}
+.jem-cain2:before {
+  content: "\e900";
+}
+.jem-aurelie:before {
+  content: "\e50";
+}
