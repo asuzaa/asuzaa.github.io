@@ -26,17 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.h-vin:before {
-  content: "\e901";
-}
 .h-niki-2:before {
   content: "\e65";
 }
 .h-niki:before {
   content: "\e66";
-}
-.h-eli:before {
-  content: "\e902";
 }
 .h-loni:before {
   content: "\e78";
@@ -44,14 +38,20 @@
 .h-henry:before {
   content: "\e93";
 }
+.h-vin:before {
+  content: "\e901";
+}
+.h-eli:before {
+  content: "\e902";
+}
 .h-virgil:before {
   content: "\e903";
 }
-.h-kai:before {
-  content: "\e907";
-}
 .h-hesiod:before {
   content: "\e904";
+}
+.h-kai:before {
+  content: "\e907";
 }
 
 
