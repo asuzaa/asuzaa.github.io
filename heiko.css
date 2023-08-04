@@ -26,6 +26,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.h-yosuke:before {
+  content: "\e36";
+}
 .h-niki-2:before {
   content: "\e65";
 }
@@ -53,5 +56,3 @@
 .h-kai:before {
   content: "\e907";
 }
-
-
