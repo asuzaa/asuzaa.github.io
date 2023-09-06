@@ -47,3 +47,6 @@
 .jem-will:before {
   content: "\e98";
 }
+.jem-vanille:before {
+  content: "\e536";
+}
