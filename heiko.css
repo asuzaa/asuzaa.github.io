@@ -59,3 +59,6 @@
 .h-yves:before {
   content: "\e333";
 }
+.h-gideon:before {
+  content: "\e555";
+}
