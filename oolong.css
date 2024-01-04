@@ -1,0 +1,99 @@
+/*HEIKO'S TRYING*/
+.oolong-wrap{	
+width:400px;	
+background:#f4f4f4;
+border:1px solid #ddd;	
+border-radius:20px;
+padding:25px 30px;	
+margin:20px auto 0px auto;	
+font-family:Quicksand;
+font-weight:500;
+font-size:15px;
+line-height:20px;
+position:relative;
+overflow:hidden;
+text-align:right;	
+}
+
+.oolong-date{	
+margin:0px;	
+padding:0 30px;	
+text-transform:uppercase;	
+height:100px;	
+font:300 14pt/100px 'Poppins', sans-serif;	
+text-align:right;	
+color:#858383;
+color: rgba(0, 0, 0, 0.5)
+letter-spacing:-2px;	
+display:inline-block;	
+margin-left:-30px;
+}
+
+.oolong-date b {	
+  color: rgba(var(--main));
+  font-weight:500;
+}
+
+.oolong-body b, .body u {	
+  color:rgba(var(--main));
+}
+
+ .oolong-body i {
+color:#8c8c8c;
+}
+
+.oolong-banner:before {
+background: linear-gradient(#6D6D6D, #525252);
+color:#ddde;
+text-shadow: 5px 5px 2px var(--main);
+clip-path: polygon(0 0, 96% 0%, 96% 70%, 48% 80%, 0 70%);
+content:var(--unicode);
+font-family:'heiko';
+  -webkit-font-smoothing:antialiased;
+font-size:46px;
+font-weight:500;
+line-height:100%;
+padding:25px 15px 45px;
+position:absolute;
+  top:0px; left:55px;
+text-shadow:none; 
+}
+
+.oolong-body {	
+padding:15px 30px 40px 40px;	
+display:block;
+text-align:justify;	
+color:#666;
+font:Quicksand;
+}
+
+.oolong-tag {
+  margin:45px 0px -80px;
+  background-color: #ebebeb;
+  padding: 25px 300px 30px 80px;
+  border-radius: 0px; 
+  margin-left: -80px;
+  width: 320px;
+  height: 55px;
+ font-size:12px;
+ word-spacing: 1px;
+ border-top: 7px solid;
+ border-image: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
+ border-image-slice: 1;
+}
+
+.oolong-tag a {
+  display: inline-block;
+  margin: 10px 0px 0px 0px;
+  line-height: 95%;
+  text-align: left;
+  text-transform:uppercase!important;
+  color: #6D6D6D;
+  font-size:13px;
+  font-weight:800; 
+}
+
+.oolong-tag a:before { 
+      content: '#';
+      color: rgba(var(--main));
+}
