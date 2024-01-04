@@ -53,9 +53,19 @@ color:#8c8c8c;
 
 .oolong-banner:before{
 background: linear-gradient(#6D6D6D, #525252);
-color:#ddde;
 text-shadow: 5px 5px 2px var(--main);
 clip-path: polygon(0 0, 96% 0%, 96% 70%, 50% 80%, 0 70%);
+color:#ddde;
+content:var(--unicode);
+font-family:'heiko';
+  -webkit-font-smoothing:antialiased;
+font-size:46px;
+font-weight:500;
+line-height:100%;
+padding:25px 15px 45px;
+position:absolute;
+  top:0px; left:55px;
+z-index: 1;
 }
 
 .oolong-banner:after {
@@ -71,9 +81,10 @@ position:absolute;
   top:0px; left:55px;
 text-shadow: 
   0px 0 rgba(var(--main)),
-  0 1px rgba(var(--alt), 0.3),
+  0 1px rgba(var(--main), 0.3),
   1px 0 rgba(var(--main), 0.3), 
   0 0px rgba(var(--main));
+  z-index: 2;
 }
 
 
@@ -88,7 +99,7 @@ font:Quicksand;
 
 .oolong-tag {
   margin:45px 0px -80px;
-  background-color:rgba(var(#696969), 0.3);
+  background-color:#e6e6e6;
   padding: 25px 300px 30px 80px;
   border-radius: 0px; 
   margin-left: -80px;
