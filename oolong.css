@@ -46,7 +46,7 @@ color:#8c8c8c;
 background: linear-gradient(#6D6D6D, #525252);
 color:#ddde;
 text-shadow: 5px 5px 2px var(--main);
-clip-path: polygon(0 0, 96% 0%, 96% 70%, 48% 80%, 0 70%);
+clip-path: polygon(0 0, 96% 0%, 96% 70%, 50% 80%, 0 70%);
 content:var(--unicode);
 font-family:'heiko';
   -webkit-font-smoothing:antialiased;
@@ -60,7 +60,7 @@ text-shadow:none;
 }
 
 .oolong-body {	
-padding:15px 30px 40px 40px;	
+padding:15px 27px 20px 27px;	
 display:block;
 text-align:justify;	
 color:#666;
