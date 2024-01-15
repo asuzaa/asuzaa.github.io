@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'bearsicle';
+  src:  url('fonts/bearsicle.eot?iggh9t');
+  src:  url('fonts/bearsicle.eot?iggh9t#iefix') format('embedded-opentype'),
+    url('fonts/bearsicle.ttf?iggh9t') format('truetype'),
+    url('fonts/bearsicle.woff?iggh9t') format('woff'),
+    url('fonts/bearsicle.svg?iggh9t#bearsicle') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="bear-"], [class*=" bear-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bearsicle' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bear-moth:before {
+  content: "\e11";
+}
+.bear-compass:before {
+  content: "\e12";
+}
