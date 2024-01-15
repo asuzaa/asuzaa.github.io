@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'bearsicle';
-  src:  url('fonts/bearsicle.eot?iggh9t');
-  src:  url('fonts/bearsicle.eot?iggh9t#iefix') format('embedded-opentype'),
-    url('fonts/bearsicle.ttf?iggh9t') format('truetype'),
-    url('fonts/bearsicle.woff?iggh9t') format('woff'),
-    url('fonts/bearsicle.svg?iggh9t#bearsicle') format('svg');
+  src:  url('//asuzaa.github.io/bearsicle.eot');
+  src:  url('//asuzaa.github.io/bearsicle.eot?iefix') format('embedded-opentype'),
+    url('//asuzaa.github.io/bearsicle.ttf') format('truetype'),
+    url('//asuzaa.github.io/bearsicle.woff') format('woff'),
+    url('//asuzaa.github.io/bearsicle.svg#bearsicle') format('svg');
+    url('') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
