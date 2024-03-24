@@ -43,11 +43,12 @@
 
 .rooibos-date b {	
   color: rgba(var(--main));
-  font-weight:500;
+  font-weight:600;
 }
 
 .rooibos-body b {
   color:rgba(var(--main));
+  font-weight:700;
 }
 
 .rooibos-body u {	
