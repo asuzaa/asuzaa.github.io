@@ -145,7 +145,7 @@
 }
 .rooibos-bottom {
   margin:0px 0px -70px;
-  background:linear-gradient(180deg, rgba(var(--main)), rgba(var(--alt), 0.75));
+  background:linear-gradient(180deg, rgba(var(--main)) 15%, rgba(var(--alt)) 130%);
   padding: 25px 300px 30px 80px;
   border-radius: 10px; 
   margin-left: -80px;
