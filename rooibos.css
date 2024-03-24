@@ -1,0 +1,197 @@
+.rooibos-wrap{	
+  width:410px;	
+  background:#f4f4f4;
+  border:1px solid #ddd;	
+  border-radius:10px;
+  padding:25px 30px;	
+  margin:20px auto 0px auto;	
+  font-family: 'Nunito';
+  font-weight:500;
+  font-size:15.5px;
+  line-height:23px;
+  position:relative;
+  overflow:hidden;
+  text-align:right;	
+}
+
+.rooibos-date{	
+  position: relative;
+  top: 10px;
+  bottom: 10px;
+  left: 0px;
+  border-radius: 55px;
+  width: 175px;
+  height: 40px;
+  line-height: 45px;
+  margin-left:-30px;
+  text-align: center;
+  color: rgb(var(--accent));
+  color: #A5A5A5;
+  border-radius: 0px 00px 0px 0px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'Nunito';
+  z-index: 1;
+  background-color: #ebebeb;
+}
+
+.rooibos-date span {
+  text-align: inline-block;
+  font-size: 11pt;
+  padding: 0px 5px 10px;
+}
+
+.rooibos-date b {	
+  color: rgba(var(--main));
+  font-weight:500;
+}
+
+.rooibos-body b {
+  color:rgba(var(--main));
+}
+
+.rooibos-body u {	
+ border-bottom:3px solid;
+ border-image: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
+ border-image-slice: 1;
+ font-weight:700;
+ text-decoration: none;
+}
+
+ .rooibos-body i {
+  color:#8c8c8c;
+}
+
+.rooibos-banner:before{
+  color: #fbfbfb;
+  content:var(--unicode);
+  font-family:'heiko', 'starry', 'jemmy' ;
+  -webkit-font-smoothing:antialiased;
+  font-size:55px;
+  font-weight:500;
+  line-height:100%;
+  padding:35px 15px 45px;
+  position:absolute;
+  bottom:-10px; right:35px; 
+  text-shadow: 
+  0px 4px rgba(var(--alt), 0.4), 
+  4px 4px  rgba(var(--alt), 0.4);
+  z-index: 5;
+} 
+
+.rooibos-body {	
+  padding:50px 27px 20px 27px;	
+  display:block;
+  text-align:justify;	
+  color:#666;
+  font:Quicksand;
+}
+
+.rooibos-body hr {	
+    border: none;
+    border-bottom: 0.95px solid; 
+    border-image: linear-gradient(rgba(var(--main)), rgba(var(--alt)));
+    border-image-slice: 1;
+    padding: 10px; 
+  
+}
+
+.rooibos-wave-2 {
+    position: relative;
+    bottom: 0;
+    margin-left: -58px;
+    margin-bottom: -105px;
+    left: 0;
+    width: 150%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.rooibos-wave-2 svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 122px;
+}
+
+.rooibos-wave-2 .shape-fill {
+    fill: #e8e8e8;
+}
+
+.rooibos-wave {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-left: -58px;
+    width: 160%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.rooibos-wave svg {
+    position: relative;
+    display: block;
+    width: calc(129% + 1.3px);
+    height: 107px;
+   z-index: 1;
+}
+
+.rooibos-wave .shape-fill {
+    fill: rgba(var(--main));
+    z-index: 1;
+}
+.rooibos-bottom {
+  margin:0px 0px -70px;
+  background:linear-gradient(180deg, rgba(var(--main)), rgba(var(--alt), 0.75));
+  padding: 25px 300px 30px 80px;
+  border-radius: 10px; 
+  margin-left: -80px;
+  width: 320px;
+  height: 35px;
+  font-size:13px;
+  word-spacing: 1px;
+  z-index: 2;
+}
+
+.rooibos-tag { 
+   font: 11px 'Poppins', sans-serif;
+  text-align: right;
+   width: 300px; 
+   position: relative;
+left: 55px;  
+top: 10px;
+
+} 
+.rooibos-tag a {
+  display: inline-block;
+  margin: 10px 0px -10px 0px;
+  line-height: 95%;
+  text-align: left;
+  text-transform:uppercase!important;
+  color: #6D6D6D;
+  font-size:13px;
+  font-weight:600; 
+}
+
+.rooibos-tag span.dice-roll {
+ border:0px!important;
+ display:inline-block;
+ font-weight:600;
+ line-height:14px;
+}
+
+.rooibos-tag span.dice-roll b {
+ border-bottom:2px solid;
+ border-image: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
+ border-image-slice: 1;
+}
+
+.rooibos-tag a:before { 
+  content: '✦';
+  color: rgba(var(--main));
+}
+
+
