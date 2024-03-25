@@ -1,21 +1,15 @@
 /* HEIKO'S COLORS & UNICODES */
 
-#elian {
-  --unicode:'\e902';
-  --main: 60, 113, 120;
-  --alt: 219, 144, 94;
-}
-
-#vin{
-  --unicode:'\e901';
-  --main: 232, 118, 84;
-  --alt:  92, 65, 130;
-}
-
 #hes {
   --unicode:'\e904';
   --main:140, 108, 63;
   --alt:196, 174, 82;
+} 
+
+#elian {
+  --unicode:'\e902';
+  --main: 60, 113, 120;
+  --alt: 219, 144, 94;
 }
 
 #kai {
@@ -36,16 +30,46 @@
   --alt: 135, 58, 55; 
 }
 
+#henry {
+  --unicode:'\e93';
+  --main:219, 166, 112;
+  --alt:179, 96, 48;
+} 
+
+#gideon {
+  --unicode:'\e555';
+  --main:83, 151, 212;
+  --alt:46, 58, 110;
+}
+
+#loni {
+--unicode:'\e78';
+  --main:184, 126, 39; 
+  --alt:252, 230, 139;
+}
+
+#vin{
+  --unicode:'\e901';
+  --main: 232, 118, 84;
+  --alt:  92, 65, 130;
+}
+
 #virgil {
   --unicode:'\e903';
   --main: 62, 94, 30; 
   --alt: 112, 191, 96; 
 }
 
-#leo {
-  --unicode:'\e69';
-  --main: 136, 167, 149; 
-  --alt: 81, 122, 98; 
+#yosuke {
+  --unicode:'\e782';
+  --main:99, 11, 11;
+  --alt:227, 81, 48;
+}
+
+#yves {
+  --unicode:'\e333';
+  --main:128, 164, 191;
+  --alt:87, 122, 125;
 }
 
 #aurelie {
@@ -66,58 +90,10 @@
   --alt:87, 171, 142;
 }
 
-#lydia {
---unicode:'\e58';
-  --main:147, 115, 201;
-  --alt:194, 118, 153;
-}
-
-#loni {
---unicode:'\e78';
-  --main:184, 126, 39; 
-  --alt:252, 230, 139;
-}
-
-#yvonne {
-  --unicode:'\e77';
-  --main:150, 96, 148;
-  --alt:100, 55, 125;
-}
-
-#henry {
-  --unicode:'\e93';
-  --main:219, 166, 112;
-  --alt:179, 96, 48;
-} 
-
-#xavi {
-  --unicode:'\e88';
-  --main:98, 97, 154;
-  --alt:67, 66, 128;
-}
-
 #guille {
   --unicode:'\e98';
   --main:105, 132, 155;
   --alt:59, 79, 120;
-}
-
-#yosuke {
-  --unicode:'\e782';
-  --main:99, 11, 11;
-  --alt:227, 81, 48;
-}
-
-#yves {
-  --unicode:'\e333';
-  --main:128, 164, 191;
-  --alt:87, 122, 125;
-}
-
-#vanille {
-  --unicode:'\e536';
-  --main:224, 126, 112;
-  --alt:150, 56, 53;
 }
 
 #izzy {
@@ -126,9 +102,35 @@
   --alt:47, 38, 112;
 }
 
-#gideon {
-  --unicode:'\e555';
-  --main:83, 151, 212;
-  --alt:46, 58, 110;
+#leo {
+  --unicode:'\e69';
+  --main: 136, 167, 149; 
+  --alt: 81, 122, 98; 
 }
+
+#lydia {
+--unicode:'\e58';
+  --main:147, 115, 201;
+  --alt:194, 118, 153;
+}
+
+#xavi {
+  --unicode:'\e88';
+  --main:98, 97, 154;
+  --alt:67, 66, 128;
+}
+
+#vanille {
+  --unicode:'\e536';
+  --main:224, 126, 112;
+  --alt:150, 56, 53;
+}
+
+
+#yvonne {
+  --unicode:'\e77';
+  --main:150, 96, 148;
+  --alt:100, 55, 125;
+}
+
 
