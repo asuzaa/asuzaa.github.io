@@ -25,7 +25,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.h-evie:before {
+  content: "\e46";
+}
 .h-yosuke:before {
   content: "\e782";
 }
