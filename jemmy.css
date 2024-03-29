@@ -55,5 +55,10 @@
   content: "\e67";
 }
 .jem-sarika:before {
+  content: "\e23";
+}
+
+.jem-sarika2:before {
   content: "\e22";
 }
+
