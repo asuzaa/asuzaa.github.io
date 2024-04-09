@@ -25,6 +25,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.h-laurel:before {
+  content: "\e33";
+}
 .h-august:before {
   content: "\e336";
 }
