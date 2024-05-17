@@ -1,0 +1,221 @@
+.chai-wrap{    
+  width:440px;    
+  background-image: linear-gradient(to bottom, rgba(var(--main), 0.85), rgba(var(--main), 0.65));
+  border:0px solid;
+  border-radius: 2px;
+  padding:28px;    
+  margin:20px auto 20px auto;    
+  font-family: 'Quicksand';
+  font-weight:500;
+  font-size:15px;
+  line-height:25px;
+  position:relative;
+  overflow:hidden;
+  text-align:right;   
+  min-height: 300px;
+} 
+.chai-inner { 
+ width: 90%;
+ background-color: #f4f4f4;
+ background-size: 20px 20px;
+ background-image:
+    linear-gradient(to right, rgba(var(--main), 0.15), 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(var(--main), 0.15), 1px, transparent 1px);
+ min-height: 300px; 
+ border-radius:6px;
+ border-bottom:  solid;
+ border-right:  solid;
+ border-color:  rgba(var(--main), .80);
+ padding: 25px;
+ z-index:6;
+} 
+
+.chai-date{    
+  position: relative;
+  top: 10px;
+  bottom: 10px;
+  left: 0px;    
+  border-radius: 55px;
+  width: 175px;
+  height: 40px;
+  line-height: 45px;
+  margin-left:-30px;
+  text-align: center;
+  color: #4d4d4d;
+  border-radius: 0px 00px 0px 0px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'Gochi Hand';
+  z-index: 1;
+  background-color: #ebebeb; 
+  opacity: 0.7;
+      --mask: conic-gradient(from -135deg at right,#0000,#000 1deg 89deg,#0000 90deg) 50%/100% 10px;
+      -webkit-mask: var(--mask); mask: var(--mask);
+}
+
+.chai-date span {
+  text-align: inline-block;
+  font-size: 20px;
+  padding: 0px 5px 10px;
+}
+
+.chai-date b {    
+  color: rgba(var(--main));
+  font-weight:900;
+}
+
+.chai-body b {
+  font-weight: 700;
+  color: rgba(var(--main), 0.8);
+}
+
+.chai-body u {  
+  font-style: italic;
+  border-bottom:3px solid;
+  border-image: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
+  border-image-slice: 1;
+  font-weight:700;
+  text-decoration: none;
+
+}
+
+.chai-body i {
+  color:#8c8c8c;
+  color: rgba(var(--main), 0.8);
+}
+
+.chai-banner:before{
+  color: #4d4d4d;
+  background: #f4f4f4;
+     -webkit-background-clip: text;
+     -webkit-text-stroke: 3px transparent;
+  display: inline-block;
+    -webkit-font-smoothing: antialiased;
+  content:var(--unicode);
+  font-family:'heiko', 'jemmy','starry','seelie' ;
+    -webkit-font-smoothing:antialiased;
+  font-size:60px;
+  font-weight:500;
+  line-height:100%;
+  padding:35px 15px 45px;
+  position:absolute;
+  top:-20px; right:5px;
+  text-shadow:
+      2px 0px rgba(var(--main), 0.5),
+      0px 2px rgba(var(--main), 0.5),
+      0px 0px rgba(var(--alt), 0.6),
+      0px 0px  rgba(var(--alt), 0.6);
+  z-index: 5;
+}
+
+.chai-body {    
+  padding:50px 27px 20px 27px;    
+  display:block;
+  text-align:justify;    
+  color:#666;
+  font: 'Quicksand';
+}
+
+.chai-body hr {    
+	border: none;
+	border-bottom: 0.95px solid;
+	border-image: linear-gradient(rgba(var(--main)), rgba(var(--alt)));
+	border-image-slice: 1;
+	padding: 10px;
+ 
+}
+
+.chai-bottom {
+  margin:0px 0px -70px;
+  padding: 25px 20px 30px 80px;
+  border-radius: 10px;
+  margin-left: -80px;
+  width: 320px;
+  height: 45px;
+  font-size:13px;
+  word-spacing: 1px;
+  z-index: 2;
+}
+
+.chai-dot {
+  height: 12px; 
+  width: 12px; 
+  border-radius: 100%;
+  background: rgba(var(--main), 0.75);
+  float: left; 
+  position: relative;
+  top: -20px;
+  left: -5px; 
+}
+
+.chai-dot2 {
+  height: 12px; 
+  width: 12px; 
+  border-radius: 100%;
+  background: rgba(var(--main), 0.65);
+  float: left; 
+  position: relative;
+  top: -20px;
+  left: 5px; 
+}
+
+.chai-dot3 {
+  height: 12px; 
+  width: 12px; 
+  border-radius: 100%;
+  background: rgba(var(--alt), 0.55);
+  float: left; 
+  position: relative;
+  top: -20px;
+  left: 15px; 
+}
+
+.chai-dot4 {
+  height: 12px; 
+  width: 12px; 
+  border-radius: 100%;
+  background: rgba(var(--alt), 0.45);
+  float: left; 
+  position: relative;
+  top: -20px;
+  left: 25px; 
+}
+
+
+.chai-tag {
+  font: 11px 'Poppins', sans-serif;
+  text-align: right;
+  width: 300px;
+  position: relative;
+  left: 45px;  
+  top: 10px;
+}
+
+.chai-tag a {
+  display: inline-block;
+  margin: 10px 0px -10px 0px;
+  line-height: 95%;
+  text-align: left;
+  text-transform:uppercase!important;
+  color: #7e7e7e;
+  font-size:13px;
+  font-weight:600;
+}
+
+.chai-tag span.dice-roll {
+  border:0px!important;
+  display:inline-block;
+  font-weight:600;
+  line-height:14px;
+}
+
+.chai-tag span.dice-roll b {
+    border-bottom:2px solid;
+    border-image: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
+    border-image-slice: 1;
+}
+
+.chai-tag a:before {
+    content: '✦';
+    color: rgba(var(--main), 0.8);
+}
