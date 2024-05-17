@@ -66,6 +66,9 @@
   font-weight:900;
 }
 
+.matcha-body  {
+  padding-bottom: 25px;
+}
 .matcha-body b {
   font-weight: 700;
   color: rgba(var(--main), 0.8);
@@ -145,7 +148,7 @@
   background: rgba(var(--main), 0.75);
   float: left; 
   position: relative;
-  top: -25px;
+  top: -18px;
   left: -5px; 
 }
 
@@ -156,7 +159,7 @@
   background: rgba(var(--main), 0.65);
   float: left; 
   position: relative;
-  top: -25px;
+  top: -18px;
   left: 5px; 
 }
 
@@ -167,7 +170,7 @@
   background: rgba(var(--alt), 0.55);
   float: left; 
   position: relative;
-  top: -25px;
+  top: -18px;
   left: 15px; 
 }
 
@@ -178,7 +181,7 @@
   background: rgba(var(--alt), 0.45);
   float: left; 
   position: relative;
-  top: -25px;
+  top: -18px;
   left: 25px; 
 }
 
@@ -188,7 +191,7 @@
   width: 300px;
   position: relative;
   left: 40px;  
-  top: 10px;
+  top: 38px;
 }
 
 .matcha-tag a {
