@@ -1,20 +1,22 @@
-.chai-wrap{    
-  width:440px;    
-  background-image: linear-gradient(to bottom, rgba(var(--main), 0.85), rgba(var(--main), 0.65));
+/* MATCHA PERSONAL USE */
+
+.matcha-wrap{    
+  width:420px;    
+  background-image: linear-gradient(180deg, rgba(var(--main), 0.85), rgba(var(--alt), 0.75));
   border:0px solid;
-  border-radius: 2px;
+  border-radius: 5px;
   padding:28px;    
   margin:20px auto 20px auto;    
   font-family: 'Quicksand';
-  font-weight:500;
+  font-weight:550;
   font-size:15px;
-  line-height:25px;
+  line-height:23px;
   position:relative;
   overflow:hidden;
   text-align:right;   
   min-height: 300px;
 } 
-.chai-inner { 
+.matcha-inner { 
  width: 90%;
  background-color: #f4f4f4;
  background-size: 20px 20px;
@@ -30,7 +32,7 @@
  z-index:6;
 } 
 
-.chai-date{    
+.matcha-date{    
   position: relative;
   top: 10px;
   bottom: 10px;
@@ -53,23 +55,23 @@
       -webkit-mask: var(--mask); mask: var(--mask);
 }
 
-.chai-date span {
+.matcha-date span {
   text-align: inline-block;
   font-size: 20px;
   padding: 0px 5px 10px;
 }
 
-.chai-date b {    
+.matcha-date b {    
   color: rgba(var(--main));
   font-weight:900;
 }
 
-.chai-body b {
+.matcha-body b {
   font-weight: 700;
   color: rgba(var(--main), 0.8);
 }
 
-.chai-body u {  
+.matcha-body u {  
   font-style: italic;
   border-bottom:3px solid;
   border-image: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
@@ -79,16 +81,16 @@
 
 }
 
-.chai-body i {
+.matcha-body i {
   color:#8c8c8c;
   color: rgba(var(--main), 0.8);
 }
 
-.chai-banner:before{
+.matcha-banner:before{
   color: #4d4d4d;
   background: #f4f4f4;
      -webkit-background-clip: text;
-     -webkit-text-stroke: 3px transparent;
+     -webkit-text-stroke: 4px transparent;
   display: inline-block;
     -webkit-font-smoothing: antialiased;
   content:var(--unicode);
@@ -99,16 +101,16 @@
   line-height:100%;
   padding:35px 15px 45px;
   position:absolute;
-  top:-18px; right:5px;
+  top:-10px; right:0px;
   text-shadow:
-      2px 0px rgba(var(--main), 0.5),
-      0px 2px rgba(var(--main), 0.5),
-      0px 0px rgba(var(--alt), 0.6),
-      0px 0px  rgba(var(--alt), 0.6);
+      1px 0px rgba(var(--main), 0.5),
+      1px 0px rgba(var(--main), 0.5),
+      0px 1px rgba(var(--alt), 0.6),
+      0px 1px  rgba(var(--alt), 0.6);
   z-index: 5;
 }
 
-.chai-body {    
+.matcha-body {    
   padding:50px 27px 20px 27px;    
   display:block;
   text-align:justify;    
@@ -116,16 +118,15 @@
   font: 'Quicksand';
 }
 
-.chai-body hr {    
+.matcha-body hr {    
 	border: none;
 	border-bottom: 0.95px solid;
 	border-image: linear-gradient(rgba(var(--main)), rgba(var(--alt)));
 	border-image-slice: 1;
 	padding: 10px;
- 
 }
 
-.chai-bottom {
+.matcha-bottom {
   margin:0px 0px -70px;
   padding: 25px 20px 30px 80px;
   border-radius: 10px;
@@ -137,85 +138,84 @@
   z-index: 2;
 }
 
-.chai-dot {
+.matcha-dot {
   height: 12px; 
   width: 12px; 
   border-radius: 100%;
   background: rgba(var(--main), 0.75);
   float: left; 
   position: relative;
-  top: -20px;
+  top: -25px;
   left: -5px; 
 }
 
-.chai-dot2 {
+.matcha-dot2 {
   height: 12px; 
   width: 12px; 
   border-radius: 100%;
   background: rgba(var(--main), 0.65);
   float: left; 
   position: relative;
-  top: -20px;
+  top: -25px;
   left: 5px; 
 }
 
-.chai-dot3 {
+.matcha-dot3 {
   height: 12px; 
   width: 12px; 
   border-radius: 100%;
   background: rgba(var(--alt), 0.55);
   float: left; 
   position: relative;
-  top: -20px;
+  top: -25px;
   left: 15px; 
 }
 
-.chai-dot4 {
+.matcha-dot4 {
   height: 12px; 
   width: 12px; 
   border-radius: 100%;
   background: rgba(var(--alt), 0.45);
   float: left; 
   position: relative;
-  top: -20px;
+  top: -25px;
   left: 25px; 
 }
 
-
-.chai-tag {
-  font: 11px 'Poppins', sans-serif;
+.matcha-tag {
+  font: 14px 'Gochi Hand', sans-serif;
   text-align: right;
   width: 300px;
   position: relative;
-  left: 45px;  
+  left: 40px;  
   top: 10px;
 }
 
-.chai-tag a {
+.matcha-tag a {
   display: inline-block;
   margin: 10px 0px -10px 0px;
   line-height: 95%;
   text-align: left;
   text-transform:uppercase!important;
   color: #7e7e7e;
-  font-size:13px;
+  font-size:14px;
   font-weight:600;
 }
 
-.chai-tag span.dice-roll {
+.matcha-tag span.dice-roll {
   border:0px!important;
   display:inline-block;
-  font-weight:600;
+  font-weight:500;
   line-height:14px;
 }
 
-.chai-tag span.dice-roll b {
+.matcha-tag span.dice-roll b {
     border-bottom:2px solid;
     border-image: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
     border-image-slice: 1;
 }
 
-.chai-tag a:before {
-    content: '✦';
+.matcha-tag a:before {
+    content: 'to: ';
     color: rgba(var(--main), 0.8);
 }
