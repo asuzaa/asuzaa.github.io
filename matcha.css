@@ -1,6 +1,6 @@
 /* MATCHA PERSONAL USE */
 
-.matcha-wrap{    
+ .matcha-wrap{    
   width:420px;    
   background-image: linear-gradient(180deg, rgba(var(--main), 0.85), rgba(var(--alt), 0.75));
   border:0px solid;
@@ -67,7 +67,7 @@
 }
 
 .matcha-body  {
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 .matcha-body b {
   font-weight: 700;
@@ -148,7 +148,7 @@
   background: rgba(var(--main), 0.75);
   float: left; 
   position: relative;
-  top: -18px;
+  top: -5px;
   left: -5px; 
 }
 
@@ -159,7 +159,7 @@
   background: rgba(var(--main), 0.65);
   float: left; 
   position: relative;
-  top: -18px;
+  top: -5px;
   left: 5px; 
 }
 
@@ -170,7 +170,7 @@
   background: rgba(var(--alt), 0.55);
   float: left; 
   position: relative;
-  top: -18px;
+  top: -5px;
   left: 15px; 
 }
 
@@ -181,7 +181,7 @@
   background: rgba(var(--alt), 0.45);
   float: left; 
   position: relative;
-  top: -18px;
+  top: -5px;
   left: 25px; 
 }
 
@@ -191,13 +191,13 @@
   width: 300px;
   position: relative;
   left: 40px;  
-  top: 38px;
+  top: 35px;
 }
 
 .matcha-tag a {
   display: inline-block;
   margin: 10px 0px -10px 0px;
-  line-height: 95%;
+  line-height: 90%;
   text-align: left;
   text-transform:uppercase!important;
   color: #7e7e7e;
