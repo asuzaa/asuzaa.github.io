@@ -67,3 +67,6 @@
 .h-gideon:before {
   content: "\e555";
 }
+.h-aris:before {
+  content: "\e777";
+}
