@@ -73,9 +73,6 @@
 
 #hesiod .puerh-body b {
   font-weight: 700 !important;
-  -webkit-text-fill-color: initial !important;
-  -webkit-background-clip: initial !important;
-  background: none !important;
   color: rgba(var(--main), 1) !important;
 }
 
