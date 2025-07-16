@@ -72,8 +72,8 @@
 }
 
 #hesiod .puerh-body b {
-  font-weight: 700 !important;
-  color: rgba(var(--main), 1) !important;
+  font-weight: 700;
+  color: rgba(var(--main), 1);
 }
 
 .puerh-bag u {  
