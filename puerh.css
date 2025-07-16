@@ -48,29 +48,28 @@
 
 .puerh-date{    
     position: absolute;
-    bottom: 30px;
-    left: 60px;    
-    width: 100px;
-    height: 18px;
-    padding: 5px 5px 8px 5px;
-    line-height: 18px;
-    margin-left:-10px;
-    text-align: center;
-    color: #f4f4f4;
-    border-radius: 10px;
-   border: 2px solid;
-   border-color: rgb(var(--alt), 0.2);
-    font-weight: 700;
-    background: linear-gradient(345deg, rgba(var(--main)), rgba(var(--alt)));
-    text-transform: uppercase;
-    text-shadow:
-       1px 1px rgba(var(--main), 0.4),
-       1px 1px rgba(var(--main), 0.4),
-       1px 1px rgba(var(--main), 0.4),
-       1px 1px  rgba(var(--main), 0.4);
-    font: 15px 'Poppins', sans-serif;
-    z-index: 1;
- 
+  bottom: 30px;
+  left: 60px;
+  width: 100px;
+  height: 18px;
+  padding: 5px 5px 8px 5px;
+  line-height: 18px;
+  margin-left: -10px;
+  text-align: center;
+  color: #f4f4f4;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: rgb(var(--alt), 0.2);
+  font: 15px 'Poppins', sans-serif;
+  font-weight: 700;
+  background: linear-gradient(345deg, rgba(var(--main)), rgba(var(--alt)));
+  text-transform: uppercase;
+  text-shadow:
+     1px 1px rgba(var(--main), 0.4),
+     1px 1px rgba(var(--main), 0.4),
+     1px 1px rgba(var(--main), 0.4),
+     1px 1px rgba(var(--main), 0.4);
+  z-index: 1;
 }
 
 .puerh-date span {
@@ -80,8 +79,10 @@
 }
 
  .puerh-bag b {
-  font-weight: 700;
-  color: rgba(var(--main));
+ font-weight: 700;
+  background: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .puerh-bag u {  
