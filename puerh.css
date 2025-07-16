@@ -1,0 +1,179 @@
+.puerh-wrap {
+  position: relative;
+  width: 410px;
+  min-height: 300px;
+  background-color: #f4f4f4;
+  border: 1px solid;
+  border-color: rgb(var(--alt), 0.2);
+  border-radius: 7px;
+  padding: 25px 30px;
+  margin: 20px auto 0;
+  font-family: 'Quicksand';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: right;
+  overflow: hidden;
+}
+
+.puerh-wrap::after {
+  content: "";
+  position: absolute;
+  width: 420px;           /* Adjust size */
+  height: 490px;
+  top: 0;
+  right: 0;
+  background-image: url("https://i.postimg.cc/k53Jj4vX/star.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.2;          /* 50% transparent */
+  pointer-events: none;  /* don't block clicks */
+}
+
+.puerh-wrap::before {
+ content: "";
+  position: absolute;
+  width: 490px;           /* Adjust size */
+  height: 400px;
+  bottom: 0;
+  left: 0;
+  background-image: url("https://i.postimg.cc/x8y8BjmM/star-bottom.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.2;          /* 50% transparent */
+  pointer-events: none;  /* don't block clicks */
+}
+
+.puerh-date{    
+    position: absolute;
+    bottom: 30px;
+    left: 60px;    
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+    line-height: 40px;
+    margin-left:-10px;
+    text-align: center;
+    color: #f4f4f4;
+    border-radius: 10px;
+    font-weight: 500;
+    background: linear-gradient(40deg, rgba(var(--main)), rgba(var(--alt)));
+    text-transform: uppercase;
+    text-shadow: rgba(230,230,230,1) 0px 0px 7px;
+    font: 15px 'Poppins', sans-serif;
+    z-index: 1;
+ 
+}
+
+.puerh-date span {
+    text-align: inline-block;
+    font-size: 11pt;
+    padding: 0px 5px 5px;
+}
+
+#hesiod .puerh-body b {
+  font-weight: 700 !important;
+  -webkit-text-fill-color: initial !important;
+  -webkit-background-clip: initial !important;
+  background: none !important;
+  color: rgba(var(--main), 1) !important;
+}
+
+.puerh-bag u {  
+   font-style: italic;
+   border-bottom:3px solid;
+   border-image: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
+   border-image-slice: 1;
+   font-weight:700;
+   text-decoration: none;
+}
+
+.puerh-bag i {
+    color:#8c8c8c;
+}
+
+.puerh-banner:before{
+    color: #fbfbfb;
+    content:var(--unicode);
+    font-family:'heiko', 'jemmy','starry','seelie' ;
+    -webkit-font-smoothing:antialiased;
+    font-size:45px;
+    font-weight:500;
+    line-height:100%;
+    padding:20px 20px 15px 25px;
+    position:relative;
+    background: linear-gradient(40deg, rgba(var(--main)), rgba(var(--alt)));
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    top:25px; right:25px; 
+    box-shadow: 0 0 2px 2px rgba(var(--alt),0.2);
+      z-index: 5;
+}
+
+.puerh-bag {    
+    padding:80px 27px 20px 27px;    
+    display:block;
+    text-align:justify;    
+    color:#666;
+    font: 14px 'Quicksand';
+}
+
+.puerh-bag hr {    
+    border: none;
+    border-bottom: 0.95px solid;
+    border-image: linear-gradient(rgba(var(--main)), rgba(var(--alt)));
+    border-image-slice: 1;
+    padding: 10px;
+}
+
+.puerh-bottom {
+ position: relative;
+  margin: 0px 0px -80px -180px;
+  width: 500px;
+  height: 150px;
+  bottom: 0;
+  font-size:13px;
+  word-spacing: 1px;
+  z-index: 2;
+}
+
+.puerh-tag {
+    font: 11px 'Poppins', sans-serif;
+    text-align: right;
+    width: 300px;
+    position: relative;
+    left: 55px;  
+    right: 45px; 
+}
+
+.puerh-tag a {
+    display: inline-block;
+    margin: 10px 0px -20px 0px;
+    line-height: 55%;
+    text-align: left;
+    text-transform:lowercase!important;
+    color: #6D6D6D;
+    font-size:13px;
+    font-weight:600;
+}
+
+.puerh-tag span.dice-roll {
+    border:0px!important;
+    display:inline-block;
+    font-weight:600;
+    line-height:14px;
+}
+
+.puerh-tag span.dice-roll b {
+     border-bottom:2px solid;
+     border-image: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
+     border-image-slice: 1;
+}
+
+.puerh-tag a:before {
+       content: '+';
+       color: rgba(var(--main), 0.5);
+}
