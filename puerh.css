@@ -81,7 +81,7 @@
 
  .puerh-body b {
   font-weight: 700;
-  color: rgba(var(--main), 1);
+  color: rgba(var(--main));
 }
 
 .puerh-bag u {  
