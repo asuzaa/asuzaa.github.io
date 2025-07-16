@@ -79,9 +79,9 @@
     padding: 0px 5px 5px;
 }
 
- .earlgrey-body b {
+ .earlgrey-bag b {
   font-weight: 700;
-  color: rgba(var(--main), 1);
+  color: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt));
 }
 
 .earlgrey-bag u {  
