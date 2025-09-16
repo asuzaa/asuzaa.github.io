@@ -1,86 +1,86 @@
 /* HEIKO'S COLORS & UNICODES v2 */
 
 #hesiod {
-  --unicode:'\e904';
+  --unicode:'\a904';
   --main: 179, 129, 48;
   --alt: 150, 110, 23;
 }
 
 #aris {
-  --unicode:'\e777';
+  --unicode:'\a777';
   --main:134, 198, 235;
   --alt:204, 69, 69;
 }
 
 
 #august {
-  --unicode:'\e336';
+  --unicode:'\a336';
   --main: 109,70,91;
   --alt: 62,48,84;
 }
 
 #asa {
-  --unicode:'\e845';
+  --unicode:'\a845';
   --main: 96, 123, 138;
   --alt: 59, 85, 125;
 }
 
 #elian {
-  --unicode:'\e902';
+  --unicode:'\a902';
   --main: 60, 113, 120;
   --alt: 48, 68, 82;
 }
 
 #kai {
-  --unicode:'\e907';
+  --unicode:'\a907';
   --main: 100, 93, 201;
   --alt:  194, 91, 175;
 }
 
 #nikias {
-  --unicode:'\e65';
+  --unicode:'\a65';
   --main: 217, 134, 117; 
   --alt: 128, 91, 119; 
 }
 
 #gideon {
-  --unicode:'\e555';
+  --unicode:'\a555';
   --main:75, 102, 189;
   --alt:64, 80, 163;
 }
 
 #henry {
-  --unicode:'\e93';
+  --unicode:'\a93';
   --main:209, 122, 50;
   --alt:189, 149, 81;     
 } 
 
-#loni {
---unicode:'\e78';
-  --main:184, 126, 39; 
-  --alt:217, 134, 89;
+#lottie {
+--unicode:'\a900';
+  --main:119, 242, 230; 
+  --alt:52, 163, 163;
 }
 
 #evie {
-  --unicode:'\e46';
+  --unicode:'\a46';
   --main:148, 49, 79;
   --alt:134, 40, 143;
 } 
 
 #virgil {
-  --unicode:'\e903';
+  --unicode:'\a903';
   --main: 62, 94, 30; 
   --alt: 194, 109, 56;  
 }
 
 #viv {
-  --unicode:'\e901';
+  --unicode:'\a901';
   --main: 232, 118, 84;
   --alt:  92, 65, 130;
 }
 
 #yosuke {
-  --unicode:'\e782';
+  --unicode:'\a782';
   --main:158, 115, 155;
   --alt:130, 81, 101;
 }
