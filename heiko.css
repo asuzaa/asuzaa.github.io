@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'heiko';
-  src:  url('fonts/heiko.eot?hz9sp2');
-  src:  url('fonts/heiko.eot?hz9sp2#iefix') format('embedded-opentype'),
-    url('fonts/heiko.ttf?hz9sp2') format('truetype'),
-    url('fonts/heiko.woff?hz9sp2') format('woff'),
-    url('fonts/heiko.svg?hz9sp2#heiko') format('svg');
+  src:  url('fonts/heiko.eot?g4oyop');
+  src:  url('fonts/heiko.eot?g4oyop#iefix') format('embedded-opentype'),
+    url('fonts/heiko.ttf?g4oyop') format('truetype'),
+    url('fonts/heiko.woff?g4oyop') format('woff'),
+    url('fonts/heiko.svg?g4oyop#heiko') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,50 +26,50 @@
 }
 
 .h-lottie:before {
-  content: "\e913";
+  content: "\e720";
 }
 .h-candle:before {
-  content: "\e777";
+  content: "\e721";
 }
 .h-asa:before {
-  content: "\e845";
+  content: "\e722";
 }
 .h-potion:before {
-  content: "\e46";
+  content: "\e723";
 }
 .h-niki-2:before {
-  content: "\e65";
+  content: "\e724";
 }
 .h-niki:before {
-  content: "\e66";
+  content: "\e725";
 }
 .h-loni:before {
-  content: "\e78";
+  content: "\e726";
 }
 .h-henry:before {
-  content: "\e93";
+  content: "\e727";
 }
 .h-yves:before {
-  content: "\e333";
+  content: "\e728";
 }
 .h-gideon:before {
-  content: "\e555";
+  content: "\e729";
 }
 .h-yosuke:before {
-  content: "\e782";
+  content: "\e731";
 }
 .h-vivian:before {
-  content: "\e901";
+  content: "\e732";
 }
 .h-elian:before {
-  content: "\e902";
+  content: "\e733";
 }
 .h-virgil:before {
-  content: "\e903";
+  content: "\e734";
 }
 .h-hesiod:before {
-  content: "\e904";
+  content: "\e735";
 }
 .h-kai:before {
-  content: "\e907";
+  content: "\e736";
 }
