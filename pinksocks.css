@@ -10,7 +10,7 @@ CREATED BY MEADOW
   width:350px;
   border-radius:25px;
   box-shadow:3px 3px #dfdfdf;
-  font-family: poppins;
+  font-family: quicksand;
   font-weight:400;
   font-size:14.5px;
   line-height:24px;
@@ -309,12 +309,3 @@ CREATED BY MEADOW
   width:100%;
 }
 
-/***************
-CHARACTER IDS/COLOR SETUP; HOST IN SEPARATE STYLESHEET
-****************/
-
-#default {
- --main: 171,171,171;
- --accent: 187,187,187;
- --unicode: '\e92d'; 
-}
