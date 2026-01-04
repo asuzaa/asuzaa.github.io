@@ -10,9 +10,9 @@ CREATED BY MEADOW
   width:350px;
   border-radius:25px;
   box-shadow:3px 3px #dfdfdf;
-  font-family: quicksand;
+  font-family: Quicksand;
   font-weight:400;
-  font-size:14.5px;
+  font-size:14px;
   line-height:24px;
   color:#6f6f6f;
   z-index:1;
@@ -268,7 +268,7 @@ CREATED BY MEADOW
 .ps-tag a.user-tagged {
   color:rgba(var(--main));
   font-weight:600;
-  text-transform:uppercase;
+  text-transform:lowercase;
   font-size:15px;
   transition:ease-in-out;
   transition-duration:0.2s;
@@ -309,3 +309,12 @@ CREATED BY MEADOW
   width:100%;
 }
 
+/***************
+CHARACTER IDS/COLOR SETUP; HOST IN SEPARATE STYLESHEET
+****************/
+
+#default {
+ --main: 171,171,171;
+ --accent: 187,187,187;
+ --unicode: '\e92d'; 
+}
