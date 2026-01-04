@@ -111,7 +111,7 @@ CREATED BY MEADOW
 
 .ps-star:before {
   content:'\e91e';
-  font-family:starry;
+  font-family:'starry';
   position:absolute;
   color:#dfdfdf;
   top:43px;
@@ -285,7 +285,7 @@ CREATED BY MEADOW
 
 .ps-tag a.user-tagged:before {
   content:'\e920';
-  font-family:starry;
+  font-family:'starry';
   display:inline-block;
   margin-right:3px;
   font-size:12px;
@@ -311,12 +311,3 @@ CREATED BY MEADOW
   width:100%;
 }
 
-/***************
-CHARACTER IDS/COLOR SETUP; HOST IN SEPARATE STYLESHEET
-****************/
-
-#default {
- --main: 171,171,171;
- --accent: 187,187,187;
- --unicode: '\e92d'; 
-}
