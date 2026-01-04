@@ -10,7 +10,7 @@
   font-display: block;
 }
 
-[class^="h-"], [class*=" h-"] {
+[class^="hko-"], [class*=" hko-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'heiko' !important;
   speak: never;
@@ -20,60 +20,61 @@
   text-transform: none;
   line-height: 1;
 
+
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.h-ilyas:before {
+.hko-ilyas:before {
   content: "\e786";
 }
-.h-lottie:before {
+.hko-lottie:before {
   content: "\e720";
 }
-.h-candle:before {
+.hko-candle:before {
   content: "\e721";
 }
-.h-asa:before {
+.hko-asa:before {
   content: "\e722";
 }
-.h-potion:before {
+.hko-potion:before {
   content: "\e723";
 }
-.h-niki-2:before {
+.hko-niki-2:before {
   content: "\e724";
 }
-.h-niki:before {
+.hko-niki:before {
   content: "\e725";
 }
-.h-loni:before {
+.hko-loni:before {
   content: "\e726";
 }
-.h-henry:before {
+.hko-henry:before {
   content: "\e727";
 }
-.h-yves:before {
+.hko-yves:before {
   content: "\e728";
 }
-.h-gideon:before {
+.hko-gideon:before {
   content: "\e729";
 }
-.h-yosuke:before {
+.hko-yosuke:before {
   content: "\e731";
 }
-.h-vivian:before {
+.hko-vivian:before {
   content: "\e732";
 }
-.h-elian:before {
+.hko-elian:before {
   content: "\e733";
 }
-.h-virgil:before {
+.hko-virgil:before {
   content: "\e734";
 }
-.h-hesiod:before {
+.hko-hesiod:before {
   content: "\e735";
 }
-.h-kai:before {
+.hko-kai:before {
   content: "\e736";
 }
 
