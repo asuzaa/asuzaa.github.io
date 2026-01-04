@@ -1,4 +1,6 @@
 /***************
+TEMPLATE; HOST CODE IN DROPBOX/GITHUB
+
 CREATED BY MEADOW
 ****************/
 
@@ -109,7 +111,7 @@ CREATED BY MEADOW
 
 .ps-star:before {
   content:'\e91e';
-  font-family: 'starry';
+  font-family:starry;
   position:absolute;
   color:#dfdfdf;
   top:43px;
@@ -145,7 +147,7 @@ CREATED BY MEADOW
 
 .ps-icon:after {
   content:var(--unicode);
-  font-family:'starry', 'heiko';
+  font-family:'starry';
   position:absolute;
   font-size:30px;
   width:30px;
@@ -309,3 +311,12 @@ CREATED BY MEADOW
   width:100%;
 }
 
+/***************
+CHARACTER IDS/COLOR SETUP; HOST IN SEPARATE STYLESHEET
+****************/
+
+#default {
+ --main: 171,171,171;
+ --accent: 187,187,187;
+ --unicode: '\e92d'; 
+}
