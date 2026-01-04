@@ -109,7 +109,7 @@ CREATED BY MEADOW
 
 .ps-star:before {
   content:'\e91e';
-  font-family:starry;
+  font-family: 'starry';
   position:absolute;
   color:#dfdfdf;
   top:43px;
@@ -145,7 +145,7 @@ CREATED BY MEADOW
 
 .ps-icon:after {
   content:var(--unicode);
-  font-family:'starry', 'heiko';
+  font-family:'starry','heiko';
   position:absolute;
   font-size:30px;
   width:30px;
@@ -308,5 +308,4 @@ CREATED BY MEADOW
   line-height:16px;
   width:100%;
 }
-
 
