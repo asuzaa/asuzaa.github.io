@@ -14,7 +14,7 @@ CREATED BY MEADOW
   box-shadow:3px 3px #dfdfdf;
   font-family: poppins;
   font-weight:400;
-  font-size:14.5px;
+  font-size:13px;
   line-height:24px;
   color:#6f6f6f;
   z-index:1;
@@ -167,7 +167,7 @@ CREATED BY MEADOW
 .ps-date {
   text-transform:uppercase;
   font-weight:200;
-  font-size:22px;
+  font-size:20px;
   line-height:22px;
   display:inline-block;
   color:rgba(79,79,79, 0.5);
