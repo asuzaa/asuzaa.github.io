@@ -147,7 +147,7 @@ CREATED BY MEADOW
 
 .ps-icon:after {
   content:var(--unicode);
-  font-family:'starry';
+  font-family:'starry', 'heiko';
   position:absolute;
   font-size:30px;
   width:30px;
