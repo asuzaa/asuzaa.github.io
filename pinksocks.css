@@ -79,7 +79,7 @@ CREATED BY MEADOW
   width:20px;
   height:50px;
   border-radius:100%;
-  border:7.5px solid rgba(var(--accent));
+  border:7.5px solid rgba(var(--alt));
   border-right:7.5px solid rgba(var(--main), 0);
   transform:rotate(-15deg);
   z-index:2;
@@ -94,7 +94,7 @@ CREATED BY MEADOW
   height:50px;
   border-radius:100%;
   border:7.5px solid rgba(var(--main), 0);
-  border-right:7.5px solid rgba(var(--accent));
+  border-right:7.5px solid rgba(var(--alt));
   transform:rotate(-15deg);
   z-index:-1;
 }
@@ -159,7 +159,7 @@ CREATED BY MEADOW
   -webkit-font-smoothing: antialiased;
   font-weight:400;
   display:block;
-  background: -webkit-linear-gradient(rgba(var(--main)) 20%, rgba(var(--accent), 0.85));
+  background: -webkit-linear-gradient(rgba(var(--main)) 20%, rgba(var(--alt), 0.85));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -177,7 +177,7 @@ CREATED BY MEADOW
 
 .ps-date b { 
   font-weight:400;
-  color:rgba(var(--accent), 0.85);
+  color:rgba(var(--alt), 0.85);
   display:block;
 }
 
@@ -193,14 +193,14 @@ CREATED BY MEADOW
 
 .ps-body u {
   text-decoration: none;
-  border-bottom:2px solid rgba(var(--accent), 0.5);
+  border-bottom:2px solid rgba(var(--alt), 0.5);
   font-weight:500;
 }
 
 .ps-body a {
   display:inline-block;
-  color:rgba(var(--accent));
-  background: -webkit-linear-gradient(rgba(var(--main)) 20%, rgba(var(--accent), 0.85));
+  color:rgba(var(--alt));
+  background: -webkit-linear-gradient(rgba(var(--main)) 20%, rgba(var(--alt), 0.85));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight:500;
@@ -212,7 +212,7 @@ CREATED BY MEADOW
 
 .ps-body hr {
   height:5px;
-  background:linear-gradient(to right, rgba(var(--main)), rgba(var(--accent), 0.85));
+  background:linear-gradient(to right, rgba(var(--main)), rgba(var(--alt), 0.85));
   border:none;
   border-radius:5px;
   margin:35px 125px;
@@ -223,7 +223,7 @@ CREATED BY MEADOW
     font-weight:300;
     color:#f9f9f9;
     background:rgba(var(--main));
-    background:linear-gradient(to right, rgba(var(--main)), rgba(var(--accent)));
+    background:linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
     padding:5px 10px;
     border-radius:7.5px;
     text-shadow: -1px 0 rgba(var(--main)), 0 1px rgba(var(--main)), 1px 0 rgba(var(--main)), 0 -1px rgba(var(--main));
@@ -277,7 +277,7 @@ CREATED BY MEADOW
   text-transform:uppercase;
   line-height:18px;
   display:inline-block;
-  background: -webkit-linear-gradient(rgba(var(--main)) 20%, rgba(var(--accent), 0.85));
+  background: -webkit-linear-gradient(rgba(var(--main)) 20%, rgba(var(--alt), 0.85));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   align-content:left;
@@ -289,7 +289,7 @@ CREATED BY MEADOW
   display:inline-block;
   margin-right:3px;
   font-size:12px;
-  background: -webkit-linear-gradient(rgba(var(--accent)) 20%, rgba(var(--accent), 0.25));
+  background: -webkit-linear-gradient(rgba(var(--alt)) 20%, rgba(var(--alt), 0.25));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position:relative;
@@ -298,7 +298,7 @@ CREATED BY MEADOW
 
 .ps-tag a {
   text-decoration: none;
-  color:rgba(var(--accent)); 
+  color:rgba(var(--alt)); 
 }
 
 .ps-tag note {
