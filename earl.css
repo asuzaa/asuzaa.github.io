@@ -59,7 +59,7 @@
   border-radius: 5px;
   border: 2px solid;
   border-color: rgba(var(--black));
-  font: 15px 'Poppins', sans-serif;
+  font: 13px 'Poppins', sans-serif;
   font-weight: 500;
   background: rgba(var(--black),0.85);
   text-transform: uppercase;;
