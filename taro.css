@@ -4,8 +4,8 @@
 
 .taro-wrap {
   position: relative;
-  width: 360px;
-  min-height: 380px;
+  width: 400px;
+  min-height: 400px;
   margin: 20px auto 0;
   padding: 25px 30px;
   background-color: #656565;
@@ -61,7 +61,7 @@
   display: block;
   text-align: justify;
   color: #666;
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Quicksand', sans-serif;
 }
 
