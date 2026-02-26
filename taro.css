@@ -127,7 +127,7 @@
 
 /* Banner positions and sizes scaled proportionally */
 .banner-1 {
-  bottom: 155px;
+  bottom: 130px;
   left: 30px;
   font-size: 54px;
   line-height: 54px;
@@ -139,7 +139,7 @@
   content: '\a136';
 }
 .banner-3 {
-  bottom: 115px;
+  bottom: 90px;
   left: 100px;
   font-size: 27px;
   line-height: 22px;
@@ -177,6 +177,7 @@
 
 .taro-tag a.user-tagged {
   position: relative;
+  margin-right: -2px;
   display: inline-block;
   padding: 4px 10px;
   font-size: 11px;
@@ -243,9 +244,9 @@
 .taro-notes {
   position: absolute;
   top: 100%;
-  right: 0;
+  right: 5px;
   width: 220px;
-  margin-top: 5px;
+  margin-top: -5px;
   font-family: 'Quicksand', sans-serif;
   font-size: 11px;
   line-height: 16px;
@@ -262,6 +263,3 @@
   font-size: 12px;
   word-spacing: 1px;
 }
-
-
- 
