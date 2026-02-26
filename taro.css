@@ -5,14 +5,14 @@
 .taro-wrap {
   position: relative;
   width: 400px;
-  min-height: 400px;
+  min-height: 380px;
   margin: 20px auto 0;
   padding: 25px 30px;
   background-color: #656565;
   border-radius: 15px;
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 23px;
   text-align: right;
   overflow: visible;
