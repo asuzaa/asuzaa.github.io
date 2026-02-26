@@ -1,15 +1,16 @@
 .taro-wrap {
   position: relative;
-  width: 360px;
-  min-height: 365px;        
+  width: 380px;
+  min-height: 300px;
+  max-width: 100%;
   margin: 20px auto 0;
-  padding: 22px 24px 35px 24px;  
+  padding: 24px 28px;          /* slightly smaller padding */
   background-color: #656565;
-  border-radius: 13px;      
+  border-radius: 14px;         /* proportional */
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
-  font-size: 12px;          
-  line-height: 20px;        
+  font-size: 13px;             /* scaled down */
+  line-height: 21px;           /* scaled down */
   text-align: right;
   overflow: visible;
   z-index: 2;
@@ -18,25 +19,25 @@
 .taro-wrap-back {
   position: absolute;
   top: 0;
-  right: -65px;             
+  right: -70px;                /* scaled right offset */
   width: 100%;
   height: 100%;
   background: #f4f4f4;
   border-left: 2px double rgba(var(--main), .5);
-  border-radius: 13px;
+  border-radius: 14px;
   z-index: -1;
 }
 
 .taro-date {
   position: absolute;
-  top: 32px;
+  top: 36px;
   right: 0;
   color: #656565;
   letter-spacing: -0.4px;
 }
 
 .taro-month {
-  font-size: 31px;
+  font-size: 33px;
   color: rgba(var(--main));
 }
 
@@ -47,11 +48,11 @@
 }
 
 .taro-bag {
-  padding: 60px 0 35px 70px;  
-  width: 300px;
+  padding: 70px 0 55px 80px;
+  width: 330px;
   text-align: justify;
   color: #666;
-  font-size: 13px;         
+  font-size: 15px;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -76,9 +77,9 @@
 
 .taro-bag hr {
   border: none;
-  border-bottom: 0.85px solid;
+  border-bottom: 0.9px solid;
   border-image: linear-gradient(rgba(var(--main)), rgba(var(--alt))) 1;
-  padding: 8px;
+  padding: 9px;
 }
 
 /* ------------------------
@@ -99,8 +100,8 @@
   position: absolute;
   z-index: 4;
   color: white;
-  -webkit-text-stroke: 10px white;   
-  filter: drop-shadow(0 2px 2px rgba(0,0,0,0.08));
+  -webkit-text-stroke: 12px white;   /* scaled down */
+  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.08));
 }
 
 .taro-banner:after {
@@ -113,29 +114,13 @@
   -webkit-text-fill-color: transparent;
 }
 
-
+/* Banner positions and sizes scaled proportionally */
 .banner-1 {
-  bottom: 130px;
-  left: 30px;
-  font-size: 48px;
-  line-height: 48px;
+  bottom: 155px;
+  left: 35px;
+  font-size: 54px;
+  line-height: 54px;
   transform: rotate(-5deg);
-}
-
-.banner-2:before,
-.banner-2:after {
-  content: '\a136';
-}
-.banner-2 {
-  bottom: 165px;
-  left: 10px;
-  font-size: 42px;  
-  line-height: 42px;
-  transform: rotate(-15deg);
-  filter: drop-shadow(1px 2px 2px rgba(var(--main), 0.2));
-}
-.banner-2:before {
-  -webkit-text-stroke: 4.5px white;
 }
 
 .banner-3:before,
@@ -143,15 +128,31 @@
   content: '\a136';
 }
 .banner-3 {
-  bottom: 95px;
-  left: 85px;
-  font-size: 25px;
-  line-height: 20px;
+  bottom: 115px;
+  left: 95px;
+  font-size: 27px;
+  line-height: 22px;
   transform: rotate(10deg);
   filter: drop-shadow(2px 1px 2px rgba(var(--alt), 0.18));
 }
+
+.banner-2:before,
+.banner-2:after {
+  content: '\a136';
+}
+.banner-2 {
+  bottom: 190px;
+  left: 12px;
+  font-size: 45px;
+  line-height: 45px;
+  transform: rotate(-15deg);
+  filter: drop-shadow(1px 2px 2px rgba(var(--main), 0.2));
+}
+.banner-2:before {
+  -webkit-text-stroke: 5px white;
+}
 .banner-3:before {
-  -webkit-text-stroke: 4.5px white;
+  -webkit-text-stroke: 5px white;
 }
 
 /* ------------------------
@@ -159,17 +160,17 @@
 ------------------------ */
 .line {
   position: absolute;
-  bottom: 115px;
+  bottom: 135px;
   right: 5px;
-  width: 130px;
-  border-bottom: 1.5px solid #ddd;
+  width: 140px;
+  border-bottom: 1.8px solid #ddd;
 }
 
 /* ------------------------
    TAG AREA
 ------------------------ */
 .taro-tag {
-  padding-top: 40px;
+  padding-top: 45px;
   text-align: left;
   position: relative;
   display: flex;
@@ -181,15 +182,15 @@
 .taro-tag a.user-tagged {
   position: relative;
   display: inline-block;
-  padding: 3.5px 9px;
-  font-size: 10px;
+  padding: 4px 10px;
+  font-size: 11px;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 22px;
   text-transform: uppercase;
   text-align: center;
   color: #656565;
   background-color: #f4f4f4;
-  border-radius: 10px;
+  border-radius: 11px;
   overflow: hidden;
   z-index: 1;
 }
@@ -199,7 +200,7 @@
   position: absolute;
   inset: 0;
   padding: 1px;
-  border-radius: 12px;
+  border-radius: 14px;
   background: linear-gradient(to right, rgba(var(--main),0.5), rgba(var(--alt),0.5));
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
@@ -211,12 +212,12 @@
 .taro-tag:before {
   display: block;
   position: absolute;
-  top: 16px;
-  width: 85px;
-  height: 75px;
+  top: 18px;
+  width: 90px;
+  height: 80px;
   text-align: center;
-  font-size: 75px;
-  line-height: 75px;
+  font-size: 82px;
+  line-height: 82px;
   color: rgba(var(--main));
   background: -webkit-linear-gradient(rgba(var(--main),0.55), rgba(var(--alt),0.25));
   -webkit-background-clip: text;
@@ -227,13 +228,13 @@
 .taro-tag span.dice-roll {
   display: inline-block;
   font-weight: 600;
-  line-height: 12px;
+  line-height: 13px;
   border: 0 !important;
 }
 
 .taro-tag a {
   color: rgba(var(--black));
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -247,11 +248,11 @@
   position: absolute;
   top: 100%;
   right: 0;
-  width: 200px;
+  width: 220px;
   margin-top: 5px;
   font-family: 'Quicksand', sans-serif;
-  font-size: 10px;
-  line-height: 15px;
+  font-size: 11px;
+  line-height: 16px;
   color: #666;
   text-align: right;
 }
@@ -259,9 +260,9 @@
 .taro-bottom {
   position: relative;
   border: 1px;
-  width: 450px;
+  width: 480px;
   height: 5px;
   bottom: 0;
-  font-size: 11px;
+  font-size: 12px;
   word-spacing: 1px;
 }
