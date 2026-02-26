@@ -1,192 +1,271 @@
-/* PUERH HESIOD ONLY */
-
-.puerh-wrap {
+.taro-wrap {
   position: relative;
-  width: 410px;
-  min-height: 300px;
-  background-color: #f4f4f4;
-  border: 1px solid;
-  border-color: rgb(var(--alt), 0.2);
-  border-radius: 7px;
-  padding: 25px 30px;
-  margin: 20px auto 0;
-  font-family: 'Quicksand';
+  width: 400px;              /* unchanged */
+  min-height: 234px;         /* unchanged */
+  max-width: 100%;
+  margin: 16px auto 0;       /* unchanged */
+  padding: 19px 22px;        /* unchanged */
+  background-color: #656565;
+  border-radius: 11px;       /* unchanged */
+  font-family: 'Quicksand', sans-serif;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 23px;
+  font-size: 13px;
+  line-height: 21px;
   text-align: right;
-  left: -27.5px;
-  overflow: hidden;
+  overflow: visible;
+  z-index: 2;
 }
 
-.puerh-wrap::after {
+/* EXACT replacement for .taro-wrap-back */
+.taro-wrap::before {
   content: "";
   position: absolute;
-  width: 420px;           /* Adjust size */
-  height: 490px;
   top: 0;
-  right: 0;
-  background-image: url("https://i.postimg.cc/k53Jj4vX/star.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 0.2;          /* 50% transparent */
-  pointer-events: none;  /* don't block clicks */
+  right: -55px;              /* EXACT same value */
+  width: 100%;               /* EXACT same */
+  height: 100%;              /* EXACT same */
+  background: #f4f4f4;
+  border-left: 2px double rgba(var(--main), .5);
+  border-radius: 11px;       /* EXACT same */
+  z-index: -1;
+  pointer-events: none;
 }
 
-.puerh-wrap::before {
- content: "";
+.taro-date {
   position: absolute;
-  width: 490px;           /* Adjust size */
-  height: 400px;
-  bottom: 0;
-  left: 0;
-  background-image: url("https://i.postimg.cc/x8y8BjmM/star-bottom.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 0.2;          /* 50% transparent */
-  pointer-events: none;  /* don't block clicks */
+  top: 36px;
+  right: 0;
+  color: #656565;
+  letter-spacing: -0.4px;
 }
 
-.puerh-date{    
-    position: absolute;
-  bottom: 30px;
-  left: 60px;
-  width: 100px;
-  height: 18px;
-  padding: 5px 5px 8px 5px;
-  line-height: 18px;
-  margin-left: -10px;
-  text-align: center;
-  color: #f4f4f4;
-  border-radius: 10px;
-  border: 2px solid;
-  border-color: rgb(var(--alt), 0.2);
-  font: 15px 'Poppins', sans-serif;
+.taro-month {
+  font-size: 33px;
+  color: rgba(var(--main));
+}
+
+.taro-date:before {
+  content: '\a136';
+  font-family: 'starry';
+  color: rgba(var(--main), 0.5);
+}
+
+.taro-bag {
+  padding: 70px 0 55px 80px;
+  width: 330px;
+  text-align: justify;
+  color: #666;
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.taro-bag b {
   font-weight: 700;
-  background: linear-gradient(345deg, rgba(var(--main)), rgba(var(--alt)));
-  text-transform: uppercase;
-  text-shadow:
-     1px 1px rgba(var(--main), 0.4),
-     1px 1px rgba(var(--main), 0.4),
-     1px 1px rgba(var(--main), 0.4),
-     1px 1px rgba(var(--main), 0.4);
-  z-index: 1;
-}
-
-.puerh-date span {
-    text-align: inline-block;
-    font-size: 11pt;
-    padding: 0px 5px 5px;
-}
-
- .puerh-bag b {
- font-weight: 700;
   background: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.puerh-bag u {  
-   font-style: italic;
-   border-bottom:3px solid;
-   border-image: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
-   border-image-slice: 1;
-   font-weight:700;
-   text-decoration: none;
+.taro-bag u {
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt))) 1;
 }
 
-.puerh-bag i {
-    color:#8c8c8c;
+.taro-bag i {
+  color: #8c8c8c;
 }
 
-.puerh-banner:before{
- color: #fbfbfb;
-    content:var(--unicode);
-    font-family:'heiko', 'jemmy','starry','seelie' ;
-    -webkit-font-smoothing:antialiased;
-    font-size:40px;
-    padding:20px 25px 18px 25px;
-    font-weight:500;
-    line-height: 100%;
-    position:relative;
-    background: linear-gradient(75deg, rgba(var(--main)), rgba(var(--alt)));
-    vertical-align: middle;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    border-radius: 50%;
-    top:30px; right:30px; 
-    box-shadow: 0 0 2px 2px rgba(var(--alt),0.2);
-text-shadow:
-       1px 0px rgba(var(--alt), 0.4),
-       1px 0px rgba(var(--alt), 0.4),
-       0px 1px rgba(var(--alt), 0.4),
-       0px 1px  rgba(var(--alt), 0.4);
-      z-index: 5;
+.taro-bag hr {
+  border: none;
+  border-bottom: 0.9px solid;
+  border-image: linear-gradient(rgba(var(--main)), rgba(var(--alt))) 1;
+  padding: 9px;
 }
 
-.puerh-bag {    
-    padding:80px 27px 20px 27px;    
-    display:block;
-    text-align:justify;    
-    color:#666;
-    font: 14px 'Quicksand';
+/* ------------------------
+   STICKER ICONS
+------------------------ */
+
+.taro-banner {
+  position: absolute;
+  width: 0;
+  height: 0;
+  font-family: 'heiko','jemmy','starry','seelie';
+  pointer-events: none;
 }
 
-.puerh-bag hr {    
-    border: none;
-    border-bottom: 0.95px solid;
-    border-image: linear-gradient(rgba(var(--main)), rgba(var(--alt)));
-    border-image-slice: 1;
-    padding: 10px;
+.taro-banner:before {
+  content: var(--unicode);
+  font-weight: 500;
+  position: absolute;
+  z-index: 4;
+  color: white;
+  -webkit-text-stroke: 12px white;   /* scaled down */
+  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.08));
 }
 
-.puerh-bottom {
- position: relative;
-  margin: 0px 0px -80px -180px;
-  width: 500px;
-  height: 150px;
-  bottom: 0;
-  font-size:13px;
-  word-spacing: 1px;
+.taro-banner:after {
+  content: var(--unicode);
+  font-weight: 500;
+  position: absolute;
+  z-index: 5;
+  background: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Banner positions and sizes scaled proportionally */
+.banner-1 {
+  bottom: 155px;
+  left: 35px;
+  font-size: 54px;
+  line-height: 54px;
+  transform: rotate(-5deg);
+}
+
+.banner-3:before,
+.banner-3:after {
+  content: '\a136';
+}
+.banner-3 {
+  bottom: 115px;
+  left: 95px;
+  font-size: 27px;
+  line-height: 22px;
+  transform: rotate(10deg);
+  filter: drop-shadow(2px 1px 2px rgba(var(--alt), 0.18));
+}
+
+.banner-2:before,
+.banner-2:after {
+  content: '\a136';
+}
+.banner-2 {
+  bottom: 190px;
+  left: 12px;
+  font-size: 45px;
+  line-height: 45px;
+  transform: rotate(-15deg);
+  filter: drop-shadow(1px 2px 2px rgba(var(--main), 0.2));
+}
+.banner-2:before {
+  -webkit-text-stroke: 5px white;
+}
+.banner-3:before {
+  -webkit-text-stroke: 5px white;
+}
+
+/* ------------------------
+   Dots / line
+------------------------ */
+.line {
+  position: absolute;
+  bottom: 135px;
+  right: 5px;
+  width: 140px;
+  border-bottom: 1.8px solid #ddd;
+}
+
+/* ------------------------
+   TAG AREA
+------------------------ */
+.taro-tag {
+  padding-top: 45px;
+  text-align: left;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.taro-tag a.user-tagged {
+  position: relative;
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #656565;
+  background-color: #f4f4f4;
+  border-radius: 11px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.taro-tag a.user-tagged::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: 14px;
+  background: linear-gradient(to right, rgba(var(--main),0.5), rgba(var(--alt),0.5));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
   z-index: 2;
 }
 
-.puerh-tag {
-    font: 11px 'Poppins', sans-serif;
-    text-align: right;
-    width: 300px;
-    position: relative;
-    padding-top: 15px;
-    left: 55px;  
-    right: 45px; 
+.taro-tag:before {
+  display: block;
+  position: absolute;
+  top: 18px;
+  width: 90px;
+  height: 80px;
+  text-align: center;
+  font-size: 82px;
+  line-height: 82px;
+  color: rgba(var(--main));
+  background: -webkit-linear-gradient(rgba(var(--main),0.55), rgba(var(--alt),0.25));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  rotate: -10deg;
 }
 
-.puerh-tag a {
-    display: inline-block;
-    margin: 10px 0px -20px 0px;
-    line-height: 55%;
-    text-align: left;
-    text-transform:lowercase!important;
-    color: #6D6D6D;
-    font-size:13px;
-    font-weight:600;
+.taro-tag span.dice-roll {
+  display: inline-block;
+  font-weight: 600;
+  line-height: 13px;
+  border: 0 !important;
 }
 
-.puerh-tag span.dice-roll {
-    border:0px!important;
-    display:inline-block;
-    font-weight:600;
-    line-height:14px;
+.taro-tag a {
+  color: rgba(var(--black));
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
-.puerh-tag span.dice-roll b {
-     border-bottom:2px solid;
-     border-image: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
-     border-image-slice: 1;
+.taro-tag span.dice-roll b {
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, rgba(var(--main)), rgba(var(--alt))) 1;
 }
 
-.puerh-tag a:before {
-       content: '+';
-       color: rgba(var(--main), 0.5);
+.taro-notes {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 220px;
+  margin-top: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 11px;
+  line-height: 16px;
+  color: #666;
+  text-align: right;
+}
+
+.taro-bottom {
+  position: relative;
+  border: 1px;
+  width: 480px;
+  height: 5px;
+  bottom: 0;
+  font-size: 12px;
+  word-spacing: 1px;
 }
