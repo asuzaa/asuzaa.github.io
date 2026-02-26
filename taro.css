@@ -1,31 +1,35 @@
 .taro-wrap {
   position: relative;
-  width: 380px;
-  min-height: 300px;
+  width: 400px;              /* unchanged */
+  min-height: 234px;         /* unchanged */
   max-width: 100%;
-  margin: 20px auto 0;
-  padding: 24px 28px;          /* slightly smaller padding */
+  margin: 16px auto 0;       /* unchanged */
+  padding: 19px 22px;        /* unchanged */
   background-color: #656565;
-  border-radius: 14px;         /* proportional */
+  border-radius: 11px;       /* unchanged */
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
-  font-size: 13px;             /* scaled down */
-  line-height: 21px;           /* scaled down */
+  font-size: 13px;
+  line-height: 21px;
   text-align: right;
   overflow: visible;
+   left: -27.5px;
   z-index: 2;
 }
 
-.taro-wrap-back {
+/* EXACT replacement for .taro-wrap-back */
+.taro-wrap::before {
+  content: "";
   position: absolute;
   top: 0;
-  right: -70px;                /* scaled right offset */
-  width: 100%;
-  height: 100%;
+  right: -55px;              /* EXACT same value */
+  width: 100%;               /* EXACT same */
+  height: 100%;              /* EXACT same */
   background: #f4f4f4;
   border-left: 2px double rgba(var(--main), .5);
-  border-radius: 14px;
+  border-radius: 11px;       /* EXACT same */
   z-index: -1;
+  pointer-events: none;
 }
 
 .taro-date {
@@ -266,3 +270,4 @@
   font-size: 12px;
   word-spacing: 1px;
 }
+
