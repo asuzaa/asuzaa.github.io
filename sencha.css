@@ -1,0 +1,245 @@
+.sencha-wrap {
+  width: 420px;
+  margin: 20px auto;
+  padding: 28px;
+  overflow: hidden;
+  background-image: linear-gradient(
+    180deg,
+    rgba(var(--main), .85),
+    rgba(var(--alt), .75));
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.sencha-inner {
+  position: relative;
+  width: 90%;
+  padding: 25px;
+  background-color: #f4f4f4;
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(to right, rgba(var(--main), .07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(var(--main), .07) 1px, transparent 1px);
+  border-right: solid rgba(var(--main), .8);
+  border-bottom: solid rgba(var(--main), .8);
+  border-radius: 6px;
+}
+.sencha-inner:before {
+  content: "";
+  position: absolute;
+
+  top:10px;
+  left: 40px;
+  right: 40px;
+
+  height: 12px;
+
+  background:
+    repeating-linear-gradient(
+      to right,
+      #e7e7e7 0px,
+      #e7e7e7 14px,
+      transparent 14px,
+      transparent 28px
+    );
+
+  z-index: 2;
+}
+
+.sencha-inner:after {
+  content: "";
+  position: absolute;
+
+  top: -12px;
+  left: 44px;
+  right: 44px;
+
+  height: 30px;
+  width: 6px;
+
+  border-radius: 999px;
+
+  background: rgba(var(--alt), .85);
+
+  box-shadow:
+    28px 0 0 rgba(var(--alt), .75),
+    56px 0 0 rgba(var(--alt), .75),
+    84px 0 0 rgba(var(--alt), .75),
+    112px 0 0 rgba(var(--alt), .75),
+    140px 0 0 rgba(var(--alt), .75),
+    168px 0 0 rgba(var(--alt), .75),
+    196px 0 0 rgba(var(--alt), .75),
+    224px 0 0 rgba(var(--alt), .75),
+    252px 0 0 rgba(var(--alt), .75),
+    280px 0 0 rgba(var(--alt), .75),
+    308px 0 0 rgba(var(--alt), .75),
+    336px 0 0 rgba(var(--alt), .75);
+
+  z-index: 5;
+}
+.sencha-date {
+  position: relative;
+  z-index: 2;
+  right: -110px;
+top: 20px;
+  width: 135px;
+  height: 40px;
+  margin-right: -10px;
+  line-height: 45px;
+  text-align: center;
+  background: #ebebeb;
+  opacity: .7;
+  font-family: 'Gochi Hand';
+  text-transform: uppercase;
+  --mask: conic-gradient(
+     from 45deg at left,
+      #0000,
+      #000 1deg 89deg,
+      #0000 90deg
+    ) 50%/100% 10px;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+
+.sencha-date::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 5px;
+  height: 100%;
+
+  background: #f4f4f4;
+
+ clip-path: polygon(
+ 100% 0%,
+
+    0% 6.25%,
+    100% 12.5%,
+
+    0% 37.5%,
+    100% 50%,
+
+    0% 62.5%,
+    100% 75%,
+
+    0% 93.75%,
+    100% 100%
+  );
+);
+}
+.sencha-date span {
+  font-size: 20px;
+}
+
+.sencha-date b {
+  color: rgba(var(--main));
+  font-weight: 900;
+}
+
+.sencha-banner:before {
+  content: var(--unicode);
+  position: absolute;
+  bottom: -60px;
+  right: -20px;
+  z-index: 5;
+  font-family: 'heiko', 'jemmy', 'starry', 'seelie';
+  font-size: 60px;
+  line-height: 1;
+  padding: 35px 15px 45px;
+  color: #4d4d4d;
+  background: #f4f4f4;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+  text-shadow:
+    1px 0 rgba(var(--main), .5),
+    0 1px rgba(var(--alt), .6);
+}
+
+.sencha-body {
+  padding: 35px 27px 15px;
+  color: #666;
+  text-align: justify;
+   font-weight: 500;
+}
+
+.sencha-body span.dice-roll {
+    font-size:14px;
+    font-weight:600;
+    color:#f4f4f4;
+    background:rgba(var(--main));
+    background:linear-gradient(to right, rgba(var(--main)), rgba(var(--alt)));
+    padding:5px 10px;
+    border-radius:5px;
+    text-shadow: -1px 0 rgba(var(--main)), 0 1px rgba(var(--main)), 1px 0 rgba(var(--main)), 0 -1px rgba(var(--main));
+}
+
+.sencha-body span.dice-roll b {
+  font-weight:700;
+  text-transform:uppercase;
+    font-family: 'Gochi Hand';
+  color:#f9f9f9!important;
+}
+
+.sencha-body b {
+  color: rgba(var(--main), .8);
+  font-weight: 700;
+}
+
+.sencha-body i {
+  color: rgba(var(--main), .8);
+}
+
+.sencha-body u {
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 3px solid;
+  border-image:
+    linear-gradient(
+      to right,
+      rgba(var(--main)),
+      rgba(var(--alt))) 1;
+}
+
+.sencha-body hr {
+  border: none;
+  border-bottom: 1px solid;
+  border-image:
+    linear-gradient(
+      rgba(var(--main)),
+      rgba(var(--alt))) 1;
+}
+
+.sencha-tag {
+  margin-top: 20px;
+  text-align: right;
+  font: 14px 'Gochi Hand', sans-serif;
+  width: 65%;
+  margin-left: auto;
+  text-align: right;
+}
+
+.sencha-tag a {
+  color: #7e7e7e;
+  font-size: 14px;
+  font-weight: 600;
+ text-transform: uppercase;
+}
+
+.sencha-tag a:before {
+    content: ", ";
+}
+
+.sencha-tag a:first-of-type:before {
+ content: "to: ";
+ color: rgba(var(--main), 0.8);
+}
+
+.sencha-bottom {
+  margin-top: 20px;
+  height: 12px;
+}
