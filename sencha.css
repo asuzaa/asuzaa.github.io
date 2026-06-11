@@ -248,6 +248,8 @@
   content: "\e93c"; 
   font-family: 'starry';
   font-size: 16px;
+  position: relative;
+  top: 1px;
   color: rgba(var(--main), .8);
 }
 
