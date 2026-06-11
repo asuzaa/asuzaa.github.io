@@ -235,32 +235,26 @@
 }
 
 .sencha-body .sencha-tag span.dice-roll {
-  font-size: 0;
-  background: none;
-  padding: 0;
-  text-shadow: none;
+  font-weight:600;
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+  color: #666!important;
 }
 
 .sencha-body .sencha-tag span.dice-roll:before {
   content: "\e93c"; 
   font-family: 'starry';
-  font-size: 14px;
-  color: #666;
+  font-size: 18px;
+  color: rgba(var(--main), 0.8);
   margin-right: 5px;
   vertical-align: middle;
 }
 
 .sencha-body .sencha-tag span.dice-roll b {
-  font-size: 14px;
-  font-family: 'Quicksand', sans-serif;
-  color: #666;
-  border-bottom: 2px solid;
-  border-image:
-    linear-gradient(
-      to right,
-      rgba(var(--main)),
-      rgba(var(--alt))
-    ) 1;
+  font-size: 0;
+  background: none;
+  padding: 0;
+  text-shadow: none;
 }
 
 .sencha-bottom {
