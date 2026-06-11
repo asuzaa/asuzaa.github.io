@@ -239,7 +239,7 @@
   padding: 0;
   border-radius: 0;
   text-shadow: none;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Gochi Hand', sans-serif;
   font-size: 14px;
   color: #666 !important;
 }
@@ -247,7 +247,7 @@
 .sencha-body .sencha-tag span.dice-roll b:before {
   content: "\e93c"; 
   font-family: 'starry';
-  font-size: 14px;
+  font-size: 16px;
   color: rgba(var(--main), .8);
 }
 
