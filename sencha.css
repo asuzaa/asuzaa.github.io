@@ -221,8 +221,6 @@
 
 .sencha-tag {
   margin-top: 20px;
-  background: none;
-  padding: 0;
   text-align: right;
   font: 14px 'Gochi Hand', sans-serif;
   width: 65%;
@@ -234,7 +232,9 @@
   color: #7e7e7e;
   font-size: 14px;
   font-weight: 600;
- text-transform: uppercase;
+  text-transform: uppercase;
+  background: none;
+  padding: 0;
 }
 
 .sencha-tag a:before {
