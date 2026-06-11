@@ -240,7 +240,7 @@
   border-radius: 0;
   text-shadow: none;
   font-family: 'Gochi Hand', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #666 !important;
 }
 
@@ -249,7 +249,7 @@
   font-family: 'starry';
   font-size: 16px;
   position: relative;
-  top: 1px;
+  top: 2px;
   color: rgba(var(--main), .8);
 }
 
