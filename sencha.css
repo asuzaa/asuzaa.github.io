@@ -241,20 +241,15 @@
   color: #666!important;
 }
 
-.sencha-body .sencha-tag span.dice-roll:before {
+.sencha-body .sencha-tag span.dice-roll b:before {
   content: "\e93c"; 
   font-family: 'starry';
-  font-size: 18px;
-  color: rgba(var(--main), 0.8);
-  margin-right: 5px;
-  vertical-align: middle;
+  font-size: 14px;
+  color: rgba(var(--main), .8);
 }
 
 .sencha-body .sencha-tag span.dice-roll b {
   font-size: 0;
-  background: none;
-  padding: 0;
-  text-shadow: none;
 }
 
 .sencha-bottom {
