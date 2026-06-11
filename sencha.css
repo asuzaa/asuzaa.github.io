@@ -189,15 +189,25 @@
 }
 
 .sencha-body u {
-  font-style: italic;
-  font-weight: 700;
   text-decoration: none;
-  border-bottom: 3px solid;
-  border-image:
+   font-weight: 700;
+  background:
     linear-gradient(
-      to right,
-      rgba(var(--main)),
-      rgba(var(--alt))) 1;
+      transparent 65%,
+      rgba(var(--main), .25) 65% );
+  padding: 0 2px;
+}
+
+.sencha-body a {
+  font-weight: 700;
+  color: #555;
+  background:
+    linear-gradient(
+      transparent 20%,
+      rgba(var(--main), .15) 20%,
+      rgba(var(--main), .15) 90%,
+      transparent 90%);
+  padding: 0 2px;
 }
 
 .sencha-body hr {
@@ -211,6 +221,8 @@
 
 .sencha-tag {
   margin-top: 20px;
+  background: none;
+  padding: 0;
   text-align: right;
   font: 14px 'Gochi Hand', sans-serif;
   width: 65%;
