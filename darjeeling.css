@@ -302,6 +302,10 @@
   -webkit-text-fill-color: initial;
 }
 
+.darjeeling-notes span.dice-roll b::before {
+  margin-right: -1px;
+}
+
  .darjeeling-bottom {
   display: none;
 }
