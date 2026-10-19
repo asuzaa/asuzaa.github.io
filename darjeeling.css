@@ -17,7 +17,7 @@
     #e7e7e7 100%
   );
   font-family: 'Urbanist', sans-serif;
-  font-size: 14px;
+  font-size: 14.5px;
   line-height: 23px;
   text-align: right;
 }
@@ -81,7 +81,7 @@
   box-sizing: border-box;
   padding: 95px 25px 35px 75px;
   color: #666;
-  font: 500 14px 'Urbanist', sans-serif;
+  font: 500 14.5px 'Urbanist', sans-serif;
   text-align: justify;
 }
 
