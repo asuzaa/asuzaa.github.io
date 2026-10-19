@@ -22,7 +22,6 @@
   text-align: right;
 }
 
-
 .darjeeling-wrap::after {
   content: "";
   position: absolute;
@@ -34,8 +33,6 @@
   pointer-events: none;
   z-index: 1;
 }
-
-
 
  .darjeeling-date {
   position: absolute;
@@ -77,8 +74,6 @@
   white-space: nowrap;
   transform: rotate(-90deg) translateX(-30px);
 }
-
-
 
  .darjeeling-bag {
   position: relative;
@@ -123,7 +118,7 @@
   color: #8c8c8c;
 }
 
- .darjeeling-bag a:not(.puerh-tag a) {
+ .darjeeling-bag a:not(.darjeeling-tag a) {
   color: rgba(var(--main), .95);
   font-weight: 600;
   text-decoration: none;
@@ -179,7 +174,6 @@
   z-index: -1;
 }
 
-
  .darjeeling-banner::after {
   content: "";
   position: absolute;
@@ -191,7 +185,6 @@
   box-shadow: 0 0 4px rgba(var(--alt), .2);
   z-index: -2;
 }
-
 
  .darjeeling-icon::before {
   content: var(--unicode);
@@ -241,7 +234,6 @@
   background: rgba(var(--alt), .18);
 }
 
-
  .darjeeling-notes {
   position: relative;
   width: 100%;
@@ -277,6 +269,7 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
+
  .darjeeling-bag span.dice-roll,
  .darjeeling-notes span.dice-roll {
   display: inline-block;
@@ -297,6 +290,17 @@
   font-size: 0;
 }
 
+.darjeeling-bag span.dice-roll b::before,
+.darjeeling-notes span.dice-roll b::before {
+  content: "\e93c";
+  font-family: 'starry';
+  font-size: 13px;
+  position: relative;
+  top: 2px;
+  margin-right: 4px;
+  color: rgba(var(--main), .8);
+  -webkit-text-fill-color: initial;
+}
 
  .darjeeling-bottom {
   display: none;
