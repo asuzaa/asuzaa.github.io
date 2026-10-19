@@ -12,7 +12,7 @@
   border-radius: 10px;
   background: linear-gradient(
     to bottom,
-    rgba(var(--alt), .04) 0%,
+    rgba(var(--alt), .03) 0%,
     #e7e7e7 30%,
     #e7e7e7 100%
   );
