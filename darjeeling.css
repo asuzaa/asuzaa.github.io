@@ -8,7 +8,7 @@
   margin: 20px auto 0;
   padding: 25px 30px;
   overflow: hidden;
-  border: 1px solid rgba(var(--alt), .8);
+  border: 1px solid rgba(var(--alt), .5);
   border-radius: 10px;
   background: linear-gradient(
     to bottom,
@@ -303,7 +303,7 @@
 }
 
 .darjeeling-notes span.dice-roll b::before {
-  margin-right: -1px;
+  margin-right: -3px;
 }
 
  .darjeeling-bottom {
