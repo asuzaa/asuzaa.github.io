@@ -1,3 +1,8 @@
+
+/* =========================
+   CHAMPACA TRACKER
+========================= */
+
 .ch-profile {
   position: relative;
   display: flex;
@@ -22,7 +27,7 @@
 
 
 /* =========================
-   HEADING
+   HEADING + NAME
 ========================= */
 
 .ch-heading {
@@ -119,14 +124,11 @@
   top: 55px;
   left: 20px;
   z-index: 6;
-
   width: 180px;
   padding: 9px 14px;
-
   background: linear-gradient(to bottom, #444, #606060);
   border: 1px solid rgba(255, 255, 255, .45);
   border-radius: 10px;
-
   color: #fbfbfb;
   font-size: 11px;
   font-weight: 700;
@@ -134,10 +136,17 @@
   line-height: 1.4;
   text-align: center;
   text-transform: uppercase;
-
   box-shadow:
     inset 1px 1px 2px rgba(255, 255, 255, .12),
     0 2px 5px rgba(0, 0, 0, .15);
+}
+
+.ch-count b {
+  text-shadow:
+    2px 0 rgba(var(--main), .85),
+    -2px 0 rgba(var(--main), .85),
+    0 2px rgba(var(--main), .85),
+    0 -2px rgba(var(--main), .85);
 }
 
 .ch-count::after {
@@ -145,10 +154,8 @@
   position: absolute;
   left: 18px;
   bottom: -17px;
-
   width: 28px;
   height: 24px;
-
   background: #555;
   clip-path: path("M 0 0 C 20 0 25 10 17 24 C 17 12 11 7 0 7 Z");
   transform: scaleX(-1);
@@ -159,7 +166,7 @@
 
 
 /* =========================
-   DECORATIVE DIAMOND
+    FONT ICON
 ========================= */
 
 .ch-diamond {
@@ -167,12 +174,10 @@
   right: 20px;
   bottom: 115px;
   z-index: 5;
-
   display: flex;
   align-items: center;
   justify-content: center;
   isolation: isolate;
-
   width: 84px;
   height: 84px;
 }
@@ -182,11 +187,9 @@
   position: absolute;
   inset: 6px;
   z-index: -1;
-
   background: linear-gradient(to bottom, #444, #606060);
   border-radius: 19.2px;
   transform: rotate(45deg);
-
   box-shadow:
     inset 1.2px 1.2px 2.4px rgba(255, 255, 255, .15),
     0 1.2px 3.6px rgba(0, 0, 0, .2);
@@ -196,17 +199,14 @@
   content: "";
   position: absolute;
   z-index: -2;
-
   width: 68px;
   height: 68px;
-
   border: 1px solid rgba(255, 255, 255, .65);
   border-radius: 14px;
   transform: rotate(45deg);
   box-shadow: 0 0 4px rgba(255, 255, 255, .2);
 }
 
-/* Diamond icon */
 
 .ch-diamond-icon {
   display: block;
@@ -243,7 +243,7 @@
   padding: 0 0 8px 8px;
   overflow-y: auto;
   overflow-x: hidden;
-  scrollbar-width: thin;
+  scrollbar-width: none;
   scrollbar-color: #d5d5d5 transparent;
 }
 
@@ -270,17 +270,14 @@
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-
   margin: 12px 0 9px;
   padding: 0 10px 9px 2px;
-
   border-bottom: 1px solid rgba(var(--main), .2);
 }
 
 .ch-month span {
   display: inline-block;
   flex: 0 0 auto;
-
   color: #666;
   font-size: 15px;
   font-weight: 400;
@@ -301,7 +298,7 @@
 
 
 /* =========================
-   THREAD CARDS
+   THREAD 
 ========================= */
 
 .ch-thread {
@@ -327,38 +324,42 @@
 
 .ch-thread-icon {
   position: absolute;
-  top: 50%;
-  right: 15px;
+  top: 22%;
+  right: 5px;
   z-index: 0;
   width: 60px;
   height: 60px;
   transform: translateY(-50%);
   color: rgba(var(--main), .12);
-  font-size: 115px;
+  font-size: 40px;
   white-space: nowrap;
 }
 
 .ch-thread-icon::before {
-  content: '\a7';
+  content: '';
   font-family: 'starry';
   display: block;
 }
 
 .ch-thread-icon.event::before {
-  content: '\a135';
+  content: '\e94b';
   font-family: 'starry';
   display: block;
 }
 
+.ch-thread.end,
+.ch-thread.end * {
+  color: #d4d4d4!important;
+}
+
 
 /* =========================
-   THREAD INFORMATION
+   THREAD INFO
 ========================= */
 
 .ch-info {
   position: relative;
   z-index: 1;
-
   width: 100%;
   min-width: 0;
   padding-right: 25px;
@@ -367,18 +368,14 @@
 .ch-info > a {
   display: block;
   margin-bottom: 9px;
-
   overflow: hidden;
   color: rgba(var(--main), .75);
-
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 800;
   line-height: 1.3;
-
   text-decoration: none;
   text-overflow: ellipsis;
   white-space: nowrap;
-
   transition: color .25s ease;
 }
 
@@ -386,20 +383,19 @@
   color: rgba(var(--alt), .75);
 }
 
-.ch-meta {
+.ch-participants {
   padding: 5px 0 0 10px;
-
   border-left: 1px solid #c9c9c9;
   color: #666;
-
-  font-size: 10px;
+  font-weight: 700;
+  font-size: 12px;
   line-height: 1.5;
   overflow-wrap: anywhere;
 }
 
 
 /* =========================
-   LOCATION BADGE
+   LOCATION CIRCLE
 ========================= */
 
 .ch-location {
@@ -456,11 +452,11 @@
    CONDUIT
 ========================= */
 
-.ch-item {
-  --item-icon-size: 110px;
-  --item-icon-opacity: .2;
-  --item-icon-right: 160px;
-  --item-icon-top: -18px;
+.ch-conduit {
+  --conduit-icon-size: 110px;
+  --conduit-icon-opacity: .2;
+  --conduit-icon-right: 160px;
+  --conduit-icon-top: -60px;
 
   position: relative;
   isolation: isolate;
@@ -468,32 +464,27 @@
   grid-row: 1;
   min-width: 0;
   padding: 4px 15px 0 8px;
-
   border-right: 1px solid rgba(var(--alt), .65);
 }
 
-/* Item icon */
-
-.ch-item-icon {
+.ch-conduit-icon {
   position: absolute;
-  top: var(--item-icon-top);
-  right: var(--item-icon-right);
+  top: var(--conduit-icon-top);
+  right: var(--conduit-icon-right);
   z-index: -1;
-
-  width: var(--item-icon-size);
-  height: var(--item-icon-size);
-
-  color: rgba(var(--main), var(--item-icon-opacity));
-  font-size: var(--item-icon-size);
+  width: var(--conduit-icon-size);
+  height: var(--conduit-icon-size);
+  color: rgba(var(--main), var(--conduit-icon-opacity));
+  font-size: var(--conduit-icon-size);
 }
 
-.ch-item-icon::before {
+.ch-conduit-icon::before {
   content: '\e933';
   font-family: 'starry';
   display: block;
 }
 
-.ch-item-desc {
+.ch-conduit-desc {
   position: relative;
   z-index: 1;
   color: #fff;
@@ -503,7 +494,7 @@
   text-shadow: 0 1px 2px rgba(var(--main), .45);
 }
 
-.ch-item-text {
+.ch-conduit-text {
   color: rgba(var(--alt), 1);
   font-weight: 600;
   background: rgba(var(--main), .10);
@@ -516,7 +507,7 @@
   box-decoration-break: clone;
 }
 
-.ch-item-desc b {
+.ch-conduit-desc b {
   padding: 2px 5px;
   border-radius: 4px;
   background: linear-gradient(to bottom, #444, #606060);
@@ -556,7 +547,7 @@
   min-width: 0;
   max-width: 100%;
   height: 28px;
-  padding: 0 8px;
+  padding: 0 8px 0 0;
   overflow: hidden;
   background: linear-gradient(to bottom, #444, #606060);
   border: .5px solid rgba(255, 255, 255, .14);
@@ -568,6 +559,7 @@
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
+  position: relative;
 }
 
 .ch-relation > span:last-child {
@@ -577,28 +569,36 @@
 }
 
 
-
-
 .ch-rel-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: static;
+  display: block;
   align-self: stretch;
   flex: 0 0 18px;
   width: 18px;
   height: 100%;
-  margin-left: -6px;
+  margin-left: -12px;
   margin-right: -2px;
-  overflow: hidden;
+  overflow: visible;
   color: rgba(var(--main), .45);
-  font-size: 30px;
+  font-size: 25px;
   opacity: .8;
+  pointer-events: none;
+}
+
+.ch-rel-icon::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: auto;
+  transform: translateY(-50%);
+  text-align: left;
+  white-space: nowrap;
 }
 
 /* Neutral relationship */
 
 .ch-relation.neutral .ch-rel-icon::before {
-  content: '\e93c';
+  content: '';
   font-family: 'starry';
   display: block;
 }
