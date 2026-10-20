@@ -1,0 +1,636 @@
+.ch-profile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+  max-width: 100%;
+  margin: 20px auto;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  background: #fafafa;
+  color: rgba(var(--main), 1);
+  font: 400 12px/1.6 'Nunito Sans', sans-serif;
+  border-radius: 12px;
+}
+
+.ch-profile *,
+.ch-profile *::before,
+.ch-profile *::after {
+  box-sizing: border-box;
+}
+
+
+/* =========================
+   HEADING
+========================= */
+
+.ch-heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.ch-name {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  right: 0;
+
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+
+  color: rgba(var(--main), 1);
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.ch-name span,
+.ch-name strong {
+  flex: 0 0 auto;
+}
+
+.ch-name strong {
+  color: rgba(var(--main), 1);
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.ch-name::after {
+  content: "";
+  display: block;
+  flex: 1 1 auto;
+  min-width: 10px;
+  height: 1.5px;
+  margin: 0 0 5px 8px;
+
+  background: linear-gradient(
+    to right,
+    #fafafa,
+    rgba(var(--alt), .4)
+  );
+}
+
+
+/* =========================
+   PORTRAIT
+========================= */
+
+.ch-portrait {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  bottom: 0;
+  width: 55%;
+  overflow: hidden;
+  isolation: isolate;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.ch-portrait img {
+  position: absolute;
+  bottom: 0;
+  left: -40px;
+  z-index: 1;
+
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center top;
+  mix-blend-mode: normal;
+  filter: saturate(.8) contrast(.98);
+}
+
+
+/* =========================
+   THREAD COUNT
+========================= */
+
+.ch-count {
+  position: absolute;
+  top: 55px;
+  left: 20px;
+  z-index: 6;
+
+  width: 180px;
+  padding: 9px 14px;
+
+  background: linear-gradient(to bottom, #444, #606060);
+  border: 1px solid rgba(255, 255, 255, .45);
+  border-radius: 10px;
+
+  color: #fbfbfb;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+
+  box-shadow:
+    inset 1px 1px 2px rgba(255, 255, 255, .12),
+    0 2px 5px rgba(0, 0, 0, .15);
+}
+
+.ch-count::after {
+  content: "";
+  position: absolute;
+  left: 18px;
+  bottom: -17px;
+
+  width: 28px;
+  height: 24px;
+
+  background: #555;
+  clip-path: path("M 0 0 C 20 0 25 10 17 24 C 17 12 11 7 0 7 Z");
+  transform: scaleX(-1);
+  transform-origin: center;
+  z-index: -1;
+  pointer-events: none;
+}
+
+
+/* =========================
+   DECORATIVE DIAMOND
+========================= */
+
+.ch-diamond {
+  position: absolute;
+  right: 20px;
+  bottom: 115px;
+  z-index: 5;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  isolation: isolate;
+
+  width: 84px;
+  height: 84px;
+}
+
+.ch-diamond::before {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  z-index: -1;
+
+  background: linear-gradient(to bottom, #444, #606060);
+  border-radius: 19.2px;
+  transform: rotate(45deg);
+
+  box-shadow:
+    inset 1.2px 1.2px 2.4px rgba(255, 255, 255, .15),
+    0 1.2px 3.6px rgba(0, 0, 0, .2);
+}
+
+.ch-diamond::after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+
+  width: 68px;
+  height: 68px;
+
+  border: 1px solid rgba(255, 255, 255, .65);
+  border-radius: 14px;
+  transform: rotate(45deg);
+  box-shadow: 0 0 4px rgba(255, 255, 255, .2);
+}
+
+/* Diamond icon */
+
+.ch-diamond-icon {
+  display: block;
+  color: #fbfbfb;
+  pointer-events: none;
+  user-select: none;
+}
+
+.ch-diamond-icon::before {
+  content: var(--unicode);
+  font-family: 'heiko', 'jemmy', 'starry', 'seelie';
+  display: block;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  color: #fbfbfb;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 0 1.2px 1.2px rgba(0, 0, 0, .2);
+}
+
+
+/* =========================
+   THREAD TRACKER
+========================= */
+
+.ch-tracker {
+  position: relative;
+  align-self: flex-end;
+  z-index: 2;
+  width: 65%;
+  height: 370px;
+  margin-top: 83px;
+  padding: 0 0 8px 8px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #d5d5d5 transparent;
+}
+
+.ch-tracker::-webkit-scrollbar {
+  width: 3px;
+}
+
+.ch-tracker::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.ch-tracker::-webkit-scrollbar-thumb {
+  background: #d5d5d5;
+  border-radius: 10px;
+}
+
+
+/* =========================
+   MONTH DIVIDERS
+========================= */
+
+.ch-month {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+
+  margin: 12px 0 9px;
+  padding: 0 10px 9px 2px;
+
+  border-bottom: 1px solid rgba(var(--main), .2);
+}
+
+.ch-month span {
+  display: inline-block;
+  flex: 0 0 auto;
+
+  color: #666;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+  line-height: 1.3;
+}
+
+.ch-month h2 {
+  margin: 0 0 0 auto;
+  color: rgba(var(--main), 1);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+  line-height: 1.3;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+
+/* =========================
+   THREAD CARDS
+========================= */
+
+.ch-thread {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 85px;
+  margin: 9px 0;
+  padding: 12px 14px 12px 49px;
+  overflow: hidden;
+  isolation: isolate;
+  background: #f1f1f1;
+  border: 1px solid rgba(var(--main), .12);
+  border-radius: 12px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .65);
+  transition: border-color .25s ease;
+}
+
+.ch-thread:hover {
+  border-color: rgba(var(--main), .3);
+}
+
+
+.ch-thread-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  z-index: 0;
+  width: 60px;
+  height: 60px;
+  transform: translateY(-50%);
+  color: rgba(var(--main), .12);
+  font-size: 115px;
+  white-space: nowrap;
+}
+
+.ch-thread-icon::before {
+  content: '\a7';
+  font-family: 'starry';
+  display: block;
+}
+
+.ch-thread-icon.event::before {
+  content: '\a135';
+  font-family: 'starry';
+  display: block;
+}
+
+
+/* =========================
+   THREAD INFORMATION
+========================= */
+
+.ch-info {
+  position: relative;
+  z-index: 1;
+
+  width: 100%;
+  min-width: 0;
+  padding-right: 25px;
+}
+
+.ch-info > a {
+  display: block;
+  margin-bottom: 9px;
+
+  overflow: hidden;
+  color: rgba(var(--main), .75);
+
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.3;
+
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  transition: color .25s ease;
+}
+
+.ch-info > a:hover {
+  color: rgba(var(--alt), .75);
+}
+
+.ch-meta {
+  padding: 5px 0 0 10px;
+
+  border-left: 1px solid #c9c9c9;
+  color: #666;
+
+  font-size: 10px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+
+/* =========================
+   LOCATION BADGE
+========================= */
+
+.ch-location {
+  position: absolute;
+  right: 18px;
+  bottom: 20px;
+  z-index: 2;
+  display: block;
+  max-width: 55%;
+  padding: 3px 10px;
+  overflow: hidden;
+  transform: translateY(50%);
+  background: #f1f1f1;
+  border: 1px solid rgba(var(--main), .25);
+  border-radius: 20px;
+  color: rgba(var(--main), .85);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .8px;
+  line-height: 1.4;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.ch-footer {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  align-items: start;
+  gap: 14px;
+  min-height: 155px;
+  padding: 50px 22px 5px 32px;
+  background: rgba(var(--alt));
+}
+
+.ch-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgba(255, 255, 255, .55);
+  pointer-events: none;
+}
+
+
+/* =========================
+   CONDUIT
+========================= */
+
+.ch-item {
+  --item-icon-size: 110px;
+  --item-icon-opacity: .2;
+  --item-icon-right: 160px;
+  --item-icon-top: -18px;
+
+  position: relative;
+  isolation: isolate;
+  grid-column: 1;
+  grid-row: 1;
+  min-width: 0;
+  padding: 4px 15px 0 8px;
+
+  border-right: 1px solid rgba(var(--alt), .65);
+}
+
+/* Item icon */
+
+.ch-item-icon {
+  position: absolute;
+  top: var(--item-icon-top);
+  right: var(--item-icon-right);
+  z-index: -1;
+
+  width: var(--item-icon-size);
+  height: var(--item-icon-size);
+
+  color: rgba(var(--main), var(--item-icon-opacity));
+  font-size: var(--item-icon-size);
+}
+
+.ch-item-icon::before {
+  content: '\e933';
+  font-family: 'starry';
+  display: block;
+}
+
+.ch-item-desc {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.7;
+  text-shadow: 0 1px 2px rgba(var(--main), .45);
+}
+
+.ch-item-text {
+  color: rgba(var(--alt), 1);
+  font-weight: 600;
+  background: rgba(var(--main), .10);
+  box-shadow:
+    2px 0 0 rgba(var(--main), .10),
+    -2px 0 0 rgba(var(--main), .10);
+  padding: 2px 0;
+  line-height: 1.9;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.ch-item-desc b {
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: linear-gradient(to bottom, #444, #606060);
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+
+/* =========================
+   RELATIONSHIPS
+========================= */
+
+.ch-relations {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: stretch;
+  gap: 5px;
+  width: 100%;
+  height: 80px;
+  min-width: 0;
+  margin: 0;
+  padding: 1px 4px 4px 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(var(--alt), .8) transparent;
+}
+
+.ch-relation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex: 1 1 75px;
+  min-width: 0;
+  max-width: 100%;
+  height: 28px;
+  padding: 0 8px;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #444, #606060);
+  border: .5px solid rgba(255, 255, 255, .14);
+  border-radius: 6px;
+  color: #fbfbfb !important;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.ch-relation > span:last-child {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+
+.ch-rel-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 0 0 18px;
+  width: 18px;
+  height: 100%;
+  margin-left: -6px;
+  margin-right: -2px;
+  overflow: hidden;
+  color: rgba(var(--main), .45);
+  font-size: 30px;
+  opacity: .8;
+}
+
+/* Neutral relationship */
+
+.ch-relation.neutral .ch-rel-icon::before {
+  content: '\e93c';
+  font-family: 'starry';
+  display: block;
+}
+
+/* Friendly relationship */
+
+.ch-relation.friendy .ch-rel-icon::before {
+  content: '\a39';
+  font-family: 'starry';
+  display: block;
+}
+
+/* Love relationship */
+
+.ch-relation.love .ch-rel-icon::before {
+  content: '\a94';
+  font-family: 'starry';
+  display: block;
+}
+
+/* Family relationship */
+
+.ch-relation.family .ch-rel-icon::before {
+  content: '\a48';
+  font-family: 'starry';
+  display: block;
+}
+
+/* Disliked relationship */
+
+.ch-relation.disliked .ch-rel-icon::before {
+  content: '\a70';
+  font-family: 'starry';
+  display: block;
+}
