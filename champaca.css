@@ -1,6 +1,4 @@
-/* =========================
-   CHAMPACA TRACKER
-========================= */
+/* Champaca Tracker for Heiko */
 
 .ch-profile {
   position: relative;
@@ -11,6 +9,7 @@
   margin: 20px auto;
   overflow: hidden;
   box-sizing: border-box;
+
   background: #fafafa;
   color: rgba(var(--main), 1);
   font: 400 12px/1.6 'Nunito Sans', sans-serif;
@@ -24,9 +23,7 @@
 }
 
 
-/* =========================
-   HEADING + NAME
-========================= */
+/* Heading And Name */
 
 .ch-heading {
   position: absolute;
@@ -80,9 +77,7 @@
 }
 
 
-/* =========================
-   PORTRAIT
-========================= */
+/* Transparent Character Portrait */
 
 .ch-portrait {
   position: absolute;
@@ -110,9 +105,7 @@
 }
 
 
-/* =========================
-   THREAD COUNT
-========================= */
+/* Thread Counter */
 
 .ch-count {
   position: absolute;
@@ -160,9 +153,7 @@
 }
 
 
-/* =========================
-    FONT ICON
-========================= */
+/* Font Icon Diamond *//
 
 .ch-diamond {
   position: absolute;
@@ -224,9 +215,7 @@
 }
 
 
-/* =========================
-   THREAD TRACKER
-========================= */
+/* Thread Tracker */
 
 .ch-tracker {
   position: relative;
@@ -256,9 +245,7 @@
 }
 
 
-/* =========================
-   MONTH DIVIDERS
-========================= */
+/* Month Dividers */
 
 .ch-month {
   display: flex;
@@ -293,9 +280,7 @@
 }
 
 
-/* =========================
-   THREAD 
-========================= */
+/* Thread */
 
 .ch-thread {
   position: relative;
@@ -351,9 +336,7 @@
 }
 
 
-/* =========================
-   THREAD INFO
-========================= */
+/* Thread Info */
 
 .ch-info {
   position: relative;
@@ -392,9 +375,7 @@
 }
 
 
-/* =========================
-   LOCATION CIRCLE
-========================= */
+/* Thread Location */
 
 .ch-location {
   position: absolute;
@@ -420,9 +401,7 @@
 }
 
 
-/* =========================
-   FOOTER
-========================= */
+/* Footer */
 
 .ch-footer {
   position: relative;
@@ -450,9 +429,7 @@
 }
 
 
-/* =========================
-   CONDUIT
-========================= */
+/* Conduit Blurb */
 
 .ch-conduit {
   --conduit-icon-size: 110px;
@@ -497,14 +474,9 @@
 }
 
 .ch-conduit-text {
-  color: rgba(var(--alt), 1);
-  font-weight: 600;
-  background: rgba(var(--main), .10);
-  box-shadow:
-    2px 0 0 rgba(var(--main), .10),
-    -2px 0 0 rgba(var(--main), .10);
-  padding: 2px 0;
-  line-height: 1.9;
+  color: rgba(242, 245, 244, .9);
+  font-weight: 620;
+  line-height: 1.5;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
@@ -519,9 +491,7 @@
 }
 
 
-/* =========================
-   RELATIONSHIPS
-========================= */
+/* Relationships */
 
 .ch-relations {
   display: flex;
@@ -597,7 +567,7 @@
   white-space: nowrap;
 }
 
-/* Neutral relationship */
+/* Neutral */
 
 .ch-relation.neutral .ch-rel-icon::before {
   content: '';
@@ -605,7 +575,7 @@
   display: block;
 }
 
-/* Friendly relationship */
+/* Friendly */
 
 .ch-relation.friendy .ch-rel-icon::before {
   content: '\a39';
@@ -613,7 +583,7 @@
   display: block;
 }
 
-/* Love relationship */
+/* Love */
 
 .ch-relation.love .ch-rel-icon::before {
   content: '\a94';
@@ -621,7 +591,7 @@
   display: block;
 }
 
-/* Family relationship */
+/* Family */
 
 .ch-relation.family .ch-rel-icon::before {
   content: '\a48';
@@ -629,11 +599,10 @@
   display: block;
 }
 
-/* Disliked relationship */
+/* Disliked */
 
 .ch-relation.disliked .ch-rel-icon::before {
   content: '\a70';
   font-family: 'starry';
   display: block;
 }
-
