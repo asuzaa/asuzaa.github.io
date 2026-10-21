@@ -1,9 +1,11 @@
 /* DARJEELING PERSONAL FOR HEIKO */
 
+/* DARJEELING PERSONAL FOR HEIKO */
+
 .darjeeling-wrap {
   position: relative;
   width: 410px;
-  min-height: 300px;
+  min-height: 340px;
   box-sizing: content-box;
   margin: 20px auto 0;
   padding: 25px 30px;
@@ -36,8 +38,8 @@
 
  .darjeeling-date {
   position: absolute;
-  top: 110px;
-  bottom: -5px;
+  top: 0;
+  bottom: -100px;
   left: 53px;
   z-index: 2;
   display: flex;
@@ -48,7 +50,7 @@
   font: 650 13px 'Urbanist', sans-serif;
 }
 
- .darjeeling-date::before {
+.darjeeling-date::before {
   content: "";
   position: absolute;
   top: 0;
@@ -65,7 +67,7 @@
   z-index: -1;
 }
 
- .darjeeling-date span {
+.darjeeling-date span {
   position: relative;
   display: inline-block;
   padding: 5px 4px;
@@ -311,26 +313,32 @@
 }
 
 
+
 .darjeeling-footer {
   position: absolute;
   z-index: 10;
-  bottom: -25px;
-  left: 0;
-  width: 100%;
+  bottom: 0;
+  left: 23;
+  width: 90%;
   height: 40px;
   box-sizing: border-box;
   border-radius: 20px 20px 0 0;
   overflow: hidden;
   pointer-events: none;
-  background-image:
-  linear-gradient(
-    rgba(68, 68, 68, .85),
-    rgba(68, 68, 68, .85)
-  ),
-  url("https://i.postimg.cc/N0R8HJz8/Post-Accent.png");
 
-  background-repeat: no-repeat;
+  background-image:
+    linear-gradient(
+      rgba(68, 68, 68, .85),
+      rgba(68, 68, 68, .85)
+    ),
+    url("https://i.postimg.cc/N0R8HJz8/Post-Accent.png");
+
+  background-repeat: no-repeat, no-repeat;
   background-position: center, center bottom;
   background-size: cover, cover;
-  opacity: 1;
+}
+
+
+
+
 
