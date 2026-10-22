@@ -8,7 +8,7 @@
   margin: 20px auto 0;
   padding: 25px 30px;
   overflow: hidden;
-  border: 1.85px solid rgba(var(--alt), .2);
+  border: 2.3px solid rgba(var(--alt), .2);
   border-radius: 10px;
   background: linear-gradient(
     to bottom,
@@ -17,7 +17,7 @@
     #e7e7e7 100%
   );
   font-family: 'Urbanist', sans-serif;
-  font-size: 15.5px;
+  font-size: 16px;
   line-height: 23px;
   text-align: right;
 }
@@ -54,7 +54,7 @@
   top: 40px;
   bottom: 0;
   left: 50%;
-  width: 1px;
+  width: 2px;
   transform: translateX(-50%);
   background: linear-gradient(
     to bottom,
@@ -82,7 +82,7 @@
   padding: 95px 25px 35px 75px;
   color: #666;
   line-height: 1.9;
-  font: 500 15.5px 'Urbanist', sans-serif;
+  font: 500 16px 'Urbanist', sans-serif;
   text-align: justify;
 }
 
@@ -211,7 +211,7 @@
   margin-top: 45px;
   padding: 0;
   text-align: right;
-  font: 12px 'Urbanist', sans-serif;
+  font: 13px 'Urbanist', sans-serif;
 }
 
 .darjeeling-tag a {
@@ -222,7 +222,7 @@
   background: linear-gradient(to bottom, #d1d1d1, #d9d9d9);
   color: rgba(var(--main), .95);
   font-family: 'Urbanist', sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 1.4;
   text-align: center;
@@ -311,8 +311,6 @@
   display: none;
 }
 
-
-
 .darjeeling-footer {
   position: absolute;
   z-index: 10;
@@ -320,7 +318,7 @@
   left: 50%;
   width: 90%;
   transform: translateX(-50%);
-  height: 40px;
+  height: 45px;
   box-sizing: border-box;
   border-radius: 20px 20px 0 0;
   overflow: hidden;
@@ -337,8 +335,4 @@
   background-position: center, center bottom;
   background-size: cover, cover;
 }
-
-
-
-
 
