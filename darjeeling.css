@@ -8,7 +8,7 @@
   margin: 20px auto 0;
   padding: 25px 30px;
   overflow: hidden;
-  border: 1.5px solid rgba(var(--alt), .3);
+  border: 1.85px solid rgba(var(--alt), .2);
   border-radius: 10px;
   background: linear-gradient(
     to bottom,
