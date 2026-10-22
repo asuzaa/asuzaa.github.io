@@ -308,7 +308,7 @@
 }
 
  .darjeeling-bottom {
-  display: none;
+  height: 30px;
 }
 
 .darjeeling-footer {
@@ -323,7 +323,6 @@
   border-radius: 20px 20px 0 0;
   overflow: hidden;
   pointer-events: none;
-
   background-image:
     linear-gradient(
       rgba(68, 68, 68, .85),
