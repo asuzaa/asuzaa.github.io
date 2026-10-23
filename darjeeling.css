@@ -244,7 +244,7 @@
   border-radius: 4px;
   background: #e7e7e7;
   color: #888;
-  font: 400 12px 'Urbanist', sans-serif;
+  font: 400 13px 'Urbanist', sans-serif;
   text-align: right;
 }
 
@@ -266,7 +266,7 @@
   display: block;
   margin-bottom: 3px;
   color: rgba(var(--main), .8);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
@@ -280,7 +280,7 @@
   background: none;
   text-shadow: none;
   font-family: 'Urbanist', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: #666 !important;
 }
 
@@ -295,7 +295,7 @@
 .darjeeling-notes span.dice-roll b::before {
   content: "\e93c";
   font-family: 'starry';
-  font-size: 13px;
+  font-size: 15px;
   position: relative;
   top: 2px;
   margin-right: 2px;
@@ -334,4 +334,3 @@
   background-position: center, center bottom;
   background-size: cover, cover;
 }
-
